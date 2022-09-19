@@ -23,10 +23,6 @@
 			ref="0ef59385-dff3-4fcd-af02-c263e8feeb28"
 			type="Recording">
 			</testmodule>
-			<teardown
-			id="45fc877b-938b-4aec-9634-13e3daf400a1"
-			name="teardown">
-			</teardown>
 			<testmodule
 			id="4c427313-7428-4d30-aabb-3be914f34425"
 			name="Recording1"
@@ -41,32 +37,14 @@
 			id="5a498d97-5d78-4bae-9761-c963b9e8b917"
 			name="setup">
 			</setup>
-			<testmodule
-			id="6207f2e9-8c76-4d70-a40a-32ceabdb337a"
-			name="CloseBrowser"
-			ref="e810395e-f4a3-4c7b-8ee3-819d8a41d84c"
-			type="Recording">
-			</testmodule>
 			<testcase
 			id="63375541-2af1-4134-b158-e85c4adc4c90"
 			name="Buy1">
 			</testcase>
 			<testmodule
-			id="64d8fe7f-f6c5-4423-9c54-b6ce23c94cff"
-			name="CloseBrowser"
-			ref="e810395e-f4a3-4c7b-8ee3-819d8a41d84c"
-			type="Recording">
-			</testmodule>
-			<testmodule
 			id="66c697ed-fdaf-493b-8a53-1515753833de"
 			name="RecordingBuy"
 			ref="3e6fbc0d-ab01-4d56-9b31-a369d607c41c"
-			type="Recording">
-			</testmodule>
-			<testmodule
-			id="6d8b42db-941d-4b1d-a7b8-a5096b07031d"
-			name="CloseBrowser"
-			ref="e810395e-f4a3-4c7b-8ee3-819d8a41d84c"
 			type="Recording">
 			</testmodule>
 			<setup
@@ -74,37 +52,11 @@
 			name="setup">
 			</setup>
 			<testmodule
-			id="756c1491-1f04-420a-9774-838bcbb7f588"
-			name="CloseBrowser"
-			ref="e810395e-f4a3-4c7b-8ee3-819d8a41d84c"
-			type="Recording">
-			</testmodule>
-			<teardown
-			id="7bd799cd-920f-4c21-85e1-c5e1b7e45309"
-			name="teardown">
-			</teardown>
-			<testmodule
 			id="89e640f0-67ff-46b5-946b-5404256b300a"
 			name="Recording2"
 			ref="9bdfc473-3ad0-4dce-a33e-7ade7488c946"
 			type="Recording">
 			</testmodule>
-			<testmodule
-			id="8b67576f-d8cd-43b1-bacc-9dd56559cd74"
-			name="CloseBrowser"
-			ref="e810395e-f4a3-4c7b-8ee3-819d8a41d84c"
-			type="Recording">
-			</testmodule>
-			<testmodule
-			id="97892a71-ca6d-46cf-9a38-2fb4f64b158f"
-			name="CloseBrowser"
-			ref="e810395e-f4a3-4c7b-8ee3-819d8a41d84c"
-			type="Recording">
-			</testmodule>
-			<teardown
-			id="9a1a9eea-7042-4741-86db-e34ef1e28e90"
-			name="teardown">
-			</teardown>
 			<testmodule
 			id="9b50aac7-ca2f-4c04-8130-ede905d054a5"
 			name="OpenBrowser"
@@ -169,10 +121,6 @@
 			ref="cc9bd8f7-0870-4ead-9742-da9f18d82475"
 			type="Recording">
 			</testmodule>
-			<teardown
-			id="bbace993-4204-4c45-b4db-cb4ec4d5c727"
-			name="teardown">
-			</teardown>
 			<setup
 			id="bcdd7dcf-3998-40bb-9877-d68d81778933"
 			name="setup">
@@ -187,20 +135,12 @@
 			id="c93a8519-fd66-4ceb-a896-8559ccf50981"
 			name="InvalidEmail">
 			</testcase>
-			<teardown
-			id="c98a0aac-09a9-434c-9c0e-f01f7c2ba10a"
-			name="teardown">
-			</teardown>
 			<testmodule
 			id="cb84433d-ce66-4da8-86e6-5755326df96c"
 			name="OpenBrowser"
 			ref="cc9bd8f7-0870-4ead-9742-da9f18d82475"
 			type="Recording">
 			</testmodule>
-			<teardown
-			id="df7a2fb9-dc59-4f60-845b-066456f7aeeb"
-			name="teardown">
-			</teardown>
 			<testmodule
 			id="fa8e6244-9199-418b-a1e3-b7f6aae36024"
 			name="RecordingSearch"
@@ -234,14 +174,6 @@
 						id="4c427313-7428-4d30-aabb-3be914f34425"
 						name="Recording1">
 						</testmodule>
-						<teardown
-						id="df7a2fb9-dc59-4f60-845b-066456f7aeeb"
-						name="teardown">
-							<testmodule
-							id="6207f2e9-8c76-4d70-a40a-32ceabdb337a"
-							name="CloseBrowser">
-							</testmodule>
-						</teardown>
 					</testcase>
 					<testcase
 					id="b059bcab-165a-4086-a75e-24d46a447b50"
@@ -258,14 +190,6 @@
 						id="89e640f0-67ff-46b5-946b-5404256b300a"
 						name="Recording2">
 						</testmodule>
-						<teardown
-						id="7bd799cd-920f-4c21-85e1-c5e1b7e45309"
-						name="teardown">
-							<testmodule
-							id="97892a71-ca6d-46cf-9a38-2fb4f64b158f"
-							name="CloseBrowser">
-							</testmodule>
-						</teardown>
 					</testcase>
 					<testcase
 					id="fe461386-09aa-4c76-bde0-05783060c928"
@@ -282,14 +206,6 @@
 						id="fa8e6244-9199-418b-a1e3-b7f6aae36024"
 						name="RecordingSearch">
 						</testmodule>
-						<teardown
-						id="9a1a9eea-7042-4741-86db-e34ef1e28e90"
-						name="teardown">
-							<testmodule
-							id="6d8b42db-941d-4b1d-a7b8-a5096b07031d"
-							name="CloseBrowser">
-							</testmodule>
-						</teardown>
 					</testcase>
 					<testcase
 					id="54d25acc-179d-4c52-847b-45756ded8865"
@@ -306,14 +222,6 @@
 						id="66c697ed-fdaf-493b-8a53-1515753833de"
 						name="RecordingBuy">
 						</testmodule>
-						<teardown
-						id="c98a0aac-09a9-434c-9c0e-f01f7c2ba10a"
-						name="teardown">
-							<testmodule
-							id="8b67576f-d8cd-43b1-bacc-9dd56559cd74"
-							name="CloseBrowser">
-							</testmodule>
-						</teardown>
 					</testcase>
 					<testcase
 					id="b108daee-ff3d-4be4-a19f-39cb7fefe29b"
@@ -330,14 +238,6 @@
 						id="281cbe42-5400-424d-ad2d-827f61da3abe"
 						name="RecordingSale">
 						</testmodule>
-						<teardown
-						id="45fc877b-938b-4aec-9634-13e3daf400a1"
-						name="teardown">
-							<testmodule
-							id="64d8fe7f-f6c5-4423-9c54-b6ce23c94cff"
-							name="CloseBrowser">
-							</testmodule>
-						</teardown>
 					</testcase>
 					<testcase
 					id="63375541-2af1-4134-b158-e85c4adc4c90"
@@ -354,14 +254,6 @@
 						id="a79088c3-d8aa-402b-b8c1-c05ad39fde9f"
 						name="RecordingBuy1">
 						</testmodule>
-						<teardown
-						id="bbace993-4204-4c45-b4db-cb4ec4d5c727"
-						name="teardown">
-							<testmodule
-							id="756c1491-1f04-420a-9774-838bcbb7f588"
-							name="CloseBrowser">
-							</testmodule>
-						</teardown>
 					</testcase>
 				</testcase>
 			</testsuite>
