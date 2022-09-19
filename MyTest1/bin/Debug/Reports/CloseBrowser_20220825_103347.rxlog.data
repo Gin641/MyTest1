@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="8.14s"
+		durationms="8140"
+		type="root"
+		rid="4994e41f6ec7246"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Admin"
+		rxversion="10.2.3.0"
+		host="ADMIN"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="25/8/2022 10:33:50 AM"
+		timestampiso="2022-08-25T03:33:50"
+		endtime="25/8/2022 10:33:58 AM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="CloseBrowser">
+		<detail>
+			CloseBrowser
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.211"
+			timeRelativeToTestModuleStartTime="00:06.211"
+			timeWallClock="10:33:56"
+			time="00:06.211"
+			level="Info"
+			category="Application">
+			<message>
+				Closing application containing item 'ApplicationUnderTest'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='automationpractice.com']"
+				itempath="/dom[@domain='automationpractice.com']"
+				fullname="MyTest1Repository.ApplicationUnderTest.Self"
+				id="ae714fe34f0f421fa829f4f7f77d0242"
+				timeout="30000"
+				codefile="c:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\CloseBrowser.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

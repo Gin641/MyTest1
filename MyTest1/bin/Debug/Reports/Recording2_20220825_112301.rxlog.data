@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="16.81s"
+		durationms="16811"
+		type="root"
+		rid="15323e83f765f90d"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Admin"
+		rxversion="10.2.3.0"
+		host="ADMIN"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="25/8/2022 11:23:03 AM"
+		timestampiso="2022-08-25T04:23:03"
+		endtime="25/8/2022 11:23:20 AM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Recording2">
+		<detail>
+			Recording2
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.219"
+			timeRelativeToTestModuleStartTime="00:05.219"
+			timeWallClock="11:23:08"
+			time="00:05.219"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.ContactUs' at 42;9.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='automationpractice.com']//div[#'contact-link']/a[@innertext='Contact us']"
+				itempath=".//div[#'contact-link']/a[@innertext='Contact us']"
+				fullname="MyTest1Repository.ApplicationUnderTest.ContactUs"
+				id="5e0e2b714ff343008c029f650f9e7295"
+				timeout="60000"
+				codefile="c:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\Recording2.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.381"
+			timeRelativeToTestModuleStartTime="00:07.381"
+			timeWallClock="11:23:11"
+			time="00:07.381"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.IdContact' at 249;18.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='automationpractice.com']//select[#'id_contact']"
+				itempath=".//select[#'id_contact']"
+				fullname="MyTest1Repository.ApplicationUnderTest.IdContact"
+				id="76c8e35c381a4dfc84fc4ae88541f2e8"
+				timeout="60000"
+				codefile="c:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\Recording2.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.112"
+			timeRelativeToTestModuleStartTime="00:08.112"
+			timeWallClock="11:23:11"
+			time="00:08.112"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'LoginMyStoreGoogleChrome' at 520;733.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'Login - My Store - Google']"
+				itempath="/form[@title>'Login - My Store - Google']"
+				fullname="MyTest1Repository.LoginMyStoreGoogleChrome.Self"
+				id="eeef39e419b94c1584656e5635604f1e"
+				timeout="30000"
+				codefile="c:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\Recording2.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.808"
+			timeRelativeToTestModuleStartTime="00:16.808"
+			timeWallClock="11:23:20"
+			time="00:16.808"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

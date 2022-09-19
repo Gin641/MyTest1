@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="30.42s"
+		durationms="30421"
+		type="root"
+		rid="1ada5a0c6fbe3eaa"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Admin"
+		rxversion="10.2.3.0"
+		host="ADMIN"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="29/8/2022 10:27:14 AM"
+		timestampiso="2022-08-29T03:27:14"
+		endtime="29/8/2022 10:27:44 AM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="RecordingBuy1">
+		<detail>
+			RecordingBuy1
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:30.416"
+			timeRelativeToTestModuleStartTime="00:30.416"
+			timeWallClock="10:27:44"
+			time="00:30.416"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

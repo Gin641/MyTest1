@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="16.82s"
+		durationms="16817"
+		type="root"
+		rid="19880bb3f6a7178"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Admin"
+		rxversion="10.2.3.0"
+		host="ADMIN"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="29/8/2022 10:39:42 AM"
+		timestampiso="2022-08-29T03:39:42"
+		endtime="29/8/2022 10:39:59 AM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="RecordingBuy1">
+		<detail>
+			RecordingBuy1
+		</detail>
+		<errormessage>
+			No element found for path './/ul[@id='homefeatured']//div[@class='product-container']//a[@class='product-name' and @title='Blouse']' at step '' after 1 attempts within 10s.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.719"
+			timeRelativeToTestModuleStartTime="00:16.719"
+			timeWallClock="10:39:58"
+			time="00:16.719"
+			level="Error"
+			category="Module"
+			errimg="images_Recordin_4007bc69\Recordin_4007bc69_fe192ddb_trace.jpg"
+			errthumb="images_Recordin_4007bc69\Recordin_4007bc69_fe192ddb_trace_thumb.jpg">
+			<message>
+				No element found for path './/ul[@id='homefeatured']//div[@class='product-container']//a[@class='product-name' and @title='Blouse']' at step '' after 1 attempts within 10s.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Element.FindSingle(RxPath path, Duration timeout)
+   at Ranorex.Adapter.FindSingle[T](RxPath path, Duration timeout)
+   at MyTest1.RecordingBuy1.Mouse_Move_Product(String productName) in c:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\RecordingBuy1.UserCode.cs:line 39
+   at MyTest1.RecordingBuy1.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\RecordingBuy1.cs:line 82
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\RecordingBuy1.UserCode.cs"
+				codeline="39"
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

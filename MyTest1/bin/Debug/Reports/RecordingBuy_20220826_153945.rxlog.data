@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="6.81s"
+		durationms="6812"
+		type="root"
+		rid="be0f07f9235fd1e"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Admin"
+		rxversion="10.2.3.0"
+		host="ADMIN"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="26/8/2022 3:39:47 PM"
+		timestampiso="2022-08-26T08:39:47"
+		endtime="26/8/2022 3:39:54 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="RecordingBuy">
+		<detail>
+			RecordingBuy
+		</detail>
+		<varbindings>
+		</varbindings>
+	</activity>
+</report>

@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="14.11s"
+		durationms="14110"
+		type="root"
+		rid="1294ddc5e9847714"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Admin"
+		rxversion="10.2.3.0"
+		host="ADMIN"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="25/8/2022 10:14:15 AM"
+		timestampiso="2022-08-25T03:14:15"
+		endtime="25/8/2022 10:14:30 AM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.701"
+			timeRelativeToTestModuleStartTime="00:04.701"
+			timeWallClock="10:14:20"
+			time="00:04.701"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.LogInToYourCustomerAccount' at 41;13.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='automationpractice.com']//header[#'header']/div[2]//nav/?/?/a[@innertext='Sign in']"
+				itempath=".//header[#'header']/div[2]//nav/?/?/a[@innertext='Sign in']"
+				fullname="MyTest1Repository.ApplicationUnderTest.LogInToYourCustomerAccount"
+				id="0de0a147919e4959807dda2b7800aa85"
+				timeout="60000"
+				codefile="c:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\Recording1.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.107"
+			timeRelativeToTestModuleStartTime="00:14.107"
+			timeWallClock="10:14:30"
+			time="00:14.107"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

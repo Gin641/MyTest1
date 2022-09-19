@@ -1,0 +1,379 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="24.99s"
+		durationms="24990"
+		type="root"
+		rid="2c583d00a743a28"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Admin"
+		rxversion="10.2.3.0"
+		host="ADMIN"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="6/9/2022 10:58:41 AM"
+		timestampiso="2022-09-06T03:58:41"
+		endtime="6/9/2022 10:59:06 AM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Recording2">
+		<detail>
+			Recording2
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.256"
+			timeRelativeToTestModuleStartTime="00:03.256"
+			timeWallClock="10:58:44"
+			time="00:03.256"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.ContactUs' at 42;9.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='automationpractice.com']//div[#'contact-link']/a[@innertext='Contact us']"
+				itempath=".//div[#'contact-link']/a[@innertext='Contact us']"
+				fullname="MyTest1Repository.ApplicationUnderTest.ContactUs"
+				id="5e0e2b714ff343008c029f650f9e7295"
+				timeout="60000"
+				codefile="c:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\Recording2.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.623"
+			timeRelativeToTestModuleStartTime="00:06.623"
+			timeWallClock="10:58:47"
+			time="00:06.623"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.IdContact' at 249;18.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='automationpractice.com']//select[#'id_contact']"
+				itempath=".//select[#'id_contact']"
+				fullname="MyTest1Repository.ApplicationUnderTest.IdContact"
+				id="76c8e35c381a4dfc84fc4ae88541f2e8"
+				timeout="60000"
+				codefile="c:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\Recording2.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.504"
+			timeRelativeToTestModuleStartTime="00:08.504"
+			timeWallClock="10:58:49"
+			time="00:08.504"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'formInfo' at 587;672.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'Contact us - My Store - Google']"
+				itempath="/form[@title>'Contact us - My Store - Google']"
+				fullname="MyTest1Repository.ContactUsMyStoreGoogleChrome.Self"
+				id="c4daf82ebeb440e28655e24f7495a074"
+				timeout="30000"
+				codefile="c:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\Recording2.UserCode.cs"
+				codeline="51"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.088"
+			timeRelativeToTestModuleStartTime="00:09.088"
+			timeWallClock="10:58:50"
+			time="00:09.088"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.Email' at 94;14.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='automationpractice.com']//input[#'email']"
+				itempath=".//input[#'email']"
+				fullname="MyTest1Repository.ApplicationUnderTest.Email"
+				id="48650f91bb4441f5b39d083ebd3d1b7c"
+				timeout="60000"
+				codefile="c:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\Recording2.cs"
+				codeline="93"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.789"
+			timeRelativeToTestModuleStartTime="00:09.789"
+			timeWallClock="10:58:50"
+			time="00:09.789"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'sakatagintoki064@gmail.com' with focus on 'ApplicationUnderTest.Email'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='automationpractice.com']//input[#'email']"
+				itempath=".//input[#'email']"
+				fullname="MyTest1Repository.ApplicationUnderTest.Email"
+				id="48650f91bb4441f5b39d083ebd3d1b7c"
+				timeout="60000"
+				codefile="c:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\Recording2.cs"
+				codeline="97"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.682"
+			timeRelativeToTestModuleStartTime="00:10.682"
+			timeWallClock="10:58:51"
+			time="00:10.682"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.IdOrder' at 101;8.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='automationpractice.com']//input[#'id_order']"
+				itempath=".//input[#'id_order']"
+				fullname="MyTest1Repository.ApplicationUnderTest.IdOrder"
+				id="653f7b4376da4f57aa54f02db0d1bdb2"
+				timeout="60000"
+				codefile="c:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\Recording2.cs"
+				codeline="101"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.371"
+			timeRelativeToTestModuleStartTime="00:11.371"
+			timeWallClock="10:58:52"
+			time="00:11.371"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'sas' with focus on 'ApplicationUnderTest.IdOrder'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='automationpractice.com']//input[#'id_order']"
+				itempath=".//input[#'id_order']"
+				fullname="MyTest1Repository.ApplicationUnderTest.IdOrder"
+				id="653f7b4376da4f57aa54f02db0d1bdb2"
+				timeout="60000"
+				codefile="c:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\Recording2.cs"
+				codeline="105"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.748"
+			timeRelativeToTestModuleStartTime="00:11.748"
+			timeWallClock="10:58:52"
+			time="00:11.748"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.FileUpload' at 196;11.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='automationpractice.com']//input[#'fileUpload']"
+				itempath=".//input[#'fileUpload']"
+				fullname="MyTest1Repository.ApplicationUnderTest.FileUpload"
+				id="0aa2270d9cff4ad58d37518f027ed46f"
+				timeout="60000"
+				codefile="c:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\Recording2.cs"
+				codeline="109"
+				itemindex="7"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.405"
+			timeRelativeToTestModuleStartTime="00:12.405"
+			timeWallClock="10:58:53"
+			time="00:12.405"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Open.BaselineImage' at 44;85.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Open']/element[@class='DUIViewWndClassName']//container[@caption='ShellView']/?/?/listitem[@automationid='3']/picture[@automationid='BaselineImage']"
+				itempath="element[@class='DUIViewWndClassName']//container[@caption='ShellView']/?/?/listitem[@automationid='3']/picture[@automationid='BaselineImage']"
+				fullname="MyTest1Repository.Open.BaselineImage"
+				id="42173e5ad6b049a1b6348c2218660e19"
+				timeout="60000"
+				codefile="c:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\Recording2.cs"
+				codeline="113"
+				itemindex="8"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.155"
+			timeRelativeToTestModuleStartTime="00:14.155"
+			timeWallClock="10:58:55"
+			time="00:14.155"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Open.ButtonOpen' at 28;13.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Open']/button[@text='&amp;Open']"
+				itempath="button[@text='&amp;Open']"
+				fullname="MyTest1Repository.Open.ButtonOpen"
+				id="47b0a64d4408490ab130086964cea1a0"
+				timeout="60000"
+				codefile="c:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\Recording2.cs"
+				codeline="117"
+				itemindex="9"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.572"
+			timeRelativeToTestModuleStartTime="00:14.572"
+			timeWallClock="10:58:55"
+			time="00:14.572"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.Message' at 460;179.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='automationpractice.com']//textarea[#'message']"
+				itempath=".//textarea[#'message']"
+				fullname="MyTest1Repository.ApplicationUnderTest.Message"
+				id="3130c4c458ee4087b88cc523286cbef3"
+				timeout="60000"
+				codefile="c:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\Recording2.cs"
+				codeline="121"
+				itemindex="10"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.356"
+			timeRelativeToTestModuleStartTime="00:15.356"
+			timeWallClock="10:58:56"
+			time="00:15.356"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'sas' with focus on 'ApplicationUnderTest.Message'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='automationpractice.com']//textarea[#'message']"
+				itempath=".//textarea[#'message']"
+				fullname="MyTest1Repository.ApplicationUnderTest.Message"
+				id="3130c4c458ee4087b88cc523286cbef3"
+				timeout="60000"
+				codefile="c:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\Recording2.cs"
+				codeline="125"
+				itemindex="11"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.728"
+			timeRelativeToTestModuleStartTime="00:15.728"
+			timeWallClock="10:58:56"
+			time="00:15.728"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.Send' at 61;14.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='automationpractice.com']//button[#'submitMessage']/span[@innertext='Send']"
+				itempath=".//button[#'submitMessage']/span[@innertext='Send']"
+				fullname="MyTest1Repository.ApplicationUnderTest.Send"
+				id="e22b8b8acba14e0bafef5868a680dee2"
+				timeout="60000"
+				codefile="c:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\Recording2.cs"
+				codeline="129"
+				itemindex="12"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.405"
+			timeRelativeToTestModuleStartTime="00:16.405"
+			timeWallClock="10:58:57"
+			time="00:16.405"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (InnerText='Your message has been successfully sent to our team.') on item 'ApplicationUnderTest.YourMessageHasBeenSuccessfullySent'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='automationpractice.com']//div[#'center_column']/p[@innertext>'Your message has been successfully']"
+				itempath=".//div[#'center_column']/p[@innertext>'Your message has been successfully']"
+				fullname="MyTest1Repository.ApplicationUnderTest.YourMessageHasBeenSuccessfullySent"
+				id="8e13549e15b44b94ae03a692beabc6ff"
+				timeout="60000"
+				codefile="c:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\Recording2.cs"
+				codeline="133"
+				itemindex="13"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:24.987"
+			timeRelativeToTestModuleStartTime="00:24.987"
+			timeWallClock="10:59:06"
+			time="00:24.987"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

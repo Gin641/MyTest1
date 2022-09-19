@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="8.48s"
+		durationms="8483"
+		type="root"
+		rid="65f3e9e73c1a18"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Admin"
+		rxversion="10.2.3.0"
+		host="ADMIN"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="25/8/2022 1:31:58 PM"
+		timestampiso="2022-08-25T06:31:58"
+		endtime="25/8/2022 1:32:07 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Recording2">
+		<detail>
+			Recording2
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.105"
+			timeRelativeToTestModuleStartTime="00:06.105"
+			timeWallClock="13:32:05"
+			time="00:06.105"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'selecttagInfo' at 251;11.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='automationpractice.com']//select[#'id_contact']"
+				itempath=".//select[#'id_contact']"
+				fullname="MyTest1Repository.ApplicationUnderTest.IdContact"
+				id="76c8e35c381a4dfc84fc4ae88541f2e8"
+				timeout="60000"
+				codefile="c:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\Recording2.UserCode.cs"
+				codeline="38"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

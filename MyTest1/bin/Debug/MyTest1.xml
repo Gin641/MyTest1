@@ -1,0 +1,1419 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MyTest1</name>
+    </assembly>
+    <members>
+        <member name="T:MyTest1.CloseBrowser">
+             <summary>
+            The CloseBrowser recording.
+             </summary>
+        </member>
+        <member name="F:MyTest1.CloseBrowser.repo">
+            <summary>
+            Holds an instance of the MyTest1Repository repository.
+            </summary>
+        </member>
+        <member name="M:MyTest1.CloseBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:MyTest1.CloseBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:MyTest1.CloseBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:MyTest1.CloseBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:MyTest1.CloseBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:MyTest1.CloseBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:MyTest1.MyTest1Repository">
+            <summary>
+            The class representing the MyTest1Repository element repository.
+            </summary>
+        </member>
+        <member name="M:MyTest1.MyTest1Repository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1Repository.Instance">
+            <summary>
+            Gets the singleton class instance representing the MyTest1Repository element repository.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1Repository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1Repository.ApplicationUnderTest">
+            <summary>
+            The ApplicationUnderTest folder.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1Repository.Explorer">
+            <summary>
+            The Explorer folder.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1Repository.TaskSwitching">
+            <summary>
+            The TaskSwitching folder.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1Repository.LQARanoreXTrainingCourseXlsxExc">
+            <summary>
+            The LQARanoreXTrainingCourseXlsxExc folder.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1Repository.LoginMyStoreGoogleChrome">
+            <summary>
+            The LoginMyStoreGoogleChrome folder.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1Repository.Open">
+            <summary>
+            The Open folder.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1Repository.ContactUsMyStoreGoogleChrome">
+            <summary>
+            The ContactUsMyStoreGoogleChrome folder.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1Repository.ThẻMớiGoogleChrome">
+            <summary>
+            The ThẻMớiGoogleChrome folder.
+            </summary>
+        </member>
+        <member name="T:MyTest1.MyTest1RepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:MyTest1.MyTest1RepositoryFolders.ApplicationUnderTestAppFolder">
+            <summary>
+            The ApplicationUnderTestAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:MyTest1.MyTest1RepositoryFolders.ApplicationUnderTestAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new ApplicationUnderTest  folder.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ApplicationUnderTestAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ApplicationUnderTestAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ApplicationUnderTestAppFolder.LogInToYourCustomerAccount">
+            <summary>
+            The LogInToYourCustomerAccount item.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ApplicationUnderTestAppFolder.LogInToYourCustomerAccountInfo">
+            <summary>
+            The LogInToYourCustomerAccount item info.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ApplicationUnderTestAppFolder.SpanTagCreateAnAccount">
+            <summary>
+            The SpanTagCreateAnAccount item.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ApplicationUnderTestAppFolder.SpanTagCreateAnAccountInfo">
+            <summary>
+            The SpanTagCreateAnAccount item info.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ApplicationUnderTestAppFolder.CreateAccountError">
+            <summary>
+            The CreateAccountError item.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ApplicationUnderTestAppFolder.CreateAccountErrorInfo">
+            <summary>
+            The CreateAccountError item info.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ApplicationUnderTestAppFolder.SearchBlockTop">
+            <summary>
+            The SearchBlockTop item.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ApplicationUnderTestAppFolder.SearchBlockTopInfo">
+            <summary>
+            The SearchBlockTop item info.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ApplicationUnderTestAppFolder.EmailCreate">
+            <summary>
+            The EmailCreate item.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ApplicationUnderTestAppFolder.EmailCreateInfo">
+            <summary>
+            The EmailCreate item info.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ApplicationUnderTestAppFolder.InvalidEmailAddress">
+            <summary>
+            The InvalidEmailAddress item.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ApplicationUnderTestAppFolder.InvalidEmailAddressInfo">
+            <summary>
+            The InvalidEmailAddress item info.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ApplicationUnderTestAppFolder.IdGender">
+            <summary>
+            The IdGender item.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ApplicationUnderTestAppFolder.IdGenderInfo">
+            <summary>
+            The IdGender item info.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ApplicationUnderTestAppFolder.CustomerFirstname">
+            <summary>
+            The CustomerFirstname item.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ApplicationUnderTestAppFolder.CustomerFirstnameInfo">
+            <summary>
+            The CustomerFirstname item info.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ApplicationUnderTestAppFolder.CustomerLastname">
+            <summary>
+            The CustomerLastname item.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ApplicationUnderTestAppFolder.CustomerLastnameInfo">
+            <summary>
+            The CustomerLastname item info.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ApplicationUnderTestAppFolder.Passwd">
+            <summary>
+            The Passwd item.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ApplicationUnderTestAppFolder.PasswdInfo">
+            <summary>
+            The Passwd item info.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ApplicationUnderTestAppFolder.Days">
+            <summary>
+            The Days item.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ApplicationUnderTestAppFolder.DaysInfo">
+            <summary>
+            The Days item info.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ApplicationUnderTestAppFolder.Months">
+            <summary>
+            The Months item.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ApplicationUnderTestAppFolder.MonthsInfo">
+            <summary>
+            The Months item info.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ApplicationUnderTestAppFolder.Years">
+            <summary>
+            The Years item.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ApplicationUnderTestAppFolder.YearsInfo">
+            <summary>
+            The Years item info.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ApplicationUnderTestAppFolder.Company">
+            <summary>
+            The Company item.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ApplicationUnderTestAppFolder.CompanyInfo">
+            <summary>
+            The Company item info.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ApplicationUnderTestAppFolder.Address1">
+            <summary>
+            The Address1 item.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ApplicationUnderTestAppFolder.Address1Info">
+            <summary>
+            The Address1 item info.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ApplicationUnderTestAppFolder.City">
+            <summary>
+            The City item.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ApplicationUnderTestAppFolder.CityInfo">
+            <summary>
+            The City item info.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ApplicationUnderTestAppFolder.IdState">
+            <summary>
+            The IdState item.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ApplicationUnderTestAppFolder.IdStateInfo">
+            <summary>
+            The IdState item info.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ApplicationUnderTestAppFolder.IdCountry">
+            <summary>
+            The IdCountry item.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ApplicationUnderTestAppFolder.IdCountryInfo">
+            <summary>
+            The IdCountry item info.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ApplicationUnderTestAppFolder.PhoneMobile">
+            <summary>
+            The PhoneMobile item.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ApplicationUnderTestAppFolder.PhoneMobileInfo">
+            <summary>
+            The PhoneMobile item info.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ApplicationUnderTestAppFolder.Alias">
+            <summary>
+            The Alias item.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ApplicationUnderTestAppFolder.AliasInfo">
+            <summary>
+            The Alias item info.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ApplicationUnderTestAppFolder.Register">
+            <summary>
+            The Register item.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ApplicationUnderTestAppFolder.RegisterInfo">
+            <summary>
+            The Register item info.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ApplicationUnderTestAppFolder.CenterColumn">
+            <summary>
+            The CenterColumn item.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ApplicationUnderTestAppFolder.CenterColumnInfo">
+            <summary>
+            The CenterColumn item info.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ApplicationUnderTestAppFolder.Postcode">
+            <summary>
+            The Postcode item.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ApplicationUnderTestAppFolder.PostcodeInfo">
+            <summary>
+            The Postcode item info.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ApplicationUnderTestAppFolder.Email">
+            <summary>
+            The Email item.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ApplicationUnderTestAppFolder.EmailInfo">
+            <summary>
+            The Email item info.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ApplicationUnderTestAppFolder.SpanTagSignIn">
+            <summary>
+            The SpanTagSignIn item.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ApplicationUnderTestAppFolder.SpanTagSignInInfo">
+            <summary>
+            The SpanTagSignIn item info.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ApplicationUnderTestAppFolder.ContactUs">
+            <summary>
+            The ContactUs item.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ApplicationUnderTestAppFolder.ContactUsInfo">
+            <summary>
+            The ContactUs item info.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ApplicationUnderTestAppFolder.IdContact">
+            <summary>
+            The IdContact item.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ApplicationUnderTestAppFolder.IdContactInfo">
+            <summary>
+            The IdContact item info.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ApplicationUnderTestAppFolder.IdOrder">
+            <summary>
+            The IdOrder item.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ApplicationUnderTestAppFolder.IdOrderInfo">
+            <summary>
+            The IdOrder item info.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ApplicationUnderTestAppFolder.FileUpload">
+            <summary>
+            The FileUpload item.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ApplicationUnderTestAppFolder.FileUploadInfo">
+            <summary>
+            The FileUpload item info.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ApplicationUnderTestAppFolder.Message">
+            <summary>
+            The Message item.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ApplicationUnderTestAppFolder.MessageInfo">
+            <summary>
+            The Message item info.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ApplicationUnderTestAppFolder.Send">
+            <summary>
+            The Send item.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ApplicationUnderTestAppFolder.SendInfo">
+            <summary>
+            The Send item info.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ApplicationUnderTestAppFolder.YourMessageHasBeenSuccessfullySent">
+            <summary>
+            The YourMessageHasBeenSuccessfullySent item.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ApplicationUnderTestAppFolder.YourMessageHasBeenSuccessfullySentInfo">
+            <summary>
+            The YourMessageHasBeenSuccessfullySent item info.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ApplicationUnderTestAppFolder.SearchQueryTop">
+            <summary>
+            The SearchQueryTop item.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ApplicationUnderTestAppFolder.SearchQueryTopInfo">
+            <summary>
+            The SearchQueryTop item info.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ApplicationUnderTestAppFolder.SpanTagProceedToCheckout">
+            <summary>
+            The SpanTagProceedToCheckout item.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ApplicationUnderTestAppFolder.SpanTagProceedToCheckoutInfo">
+            <summary>
+            The SpanTagProceedToCheckout item info.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ApplicationUnderTestAppFolder.SpanTagProceedToCheckout1">
+            <summary>
+            The SpanTagProceedToCheckout1 item.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ApplicationUnderTestAppFolder.SpanTagProceedToCheckout1Info">
+            <summary>
+            The SpanTagProceedToCheckout1 item info.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ApplicationUnderTestAppFolder.IConfirmMyOrder">
+            <summary>
+            The IConfirmMyOrder item.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ApplicationUnderTestAppFolder.IConfirmMyOrderInfo">
+            <summary>
+            The IConfirmMyOrder item info.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ApplicationUnderTestAppFolder.AddToCart">
+            <summary>
+            The AddToCart item.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ApplicationUnderTestAppFolder.AddToCartInfo">
+            <summary>
+            The AddToCart item info.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ApplicationUnderTestAppFolder.AddToCart1">
+            <summary>
+            The AddToCart1 item.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ApplicationUnderTestAppFolder.AddToCart1Info">
+            <summary>
+            The AddToCart1 item info.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ApplicationUnderTestAppFolder.AddToCart2">
+            <summary>
+            The AddToCart2 item.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ApplicationUnderTestAppFolder.AddToCart2Info">
+            <summary>
+            The AddToCart2 item info.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ApplicationUnderTestAppFolder.AddedExclusive">
+            <summary>
+            The AddedExclusive item.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ApplicationUnderTestAppFolder.AddedExclusiveInfo">
+            <summary>
+            The AddedExclusive item info.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ApplicationUnderTestAppFolder.ProductSuccessfullyAddedToYourShopp">
+            <summary>
+            The ProductSuccessfullyAddedToYourShopp item.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ApplicationUnderTestAppFolder.ProductSuccessfullyAddedToYourShoppInfo">
+            <summary>
+            The ProductSuccessfullyAddedToYourShopp item info.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ApplicationUnderTestAppFolder.ContinueShopping">
+            <summary>
+            The ContinueShopping item.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ApplicationUnderTestAppFolder.ContinueShoppingInfo">
+            <summary>
+            The ContinueShopping item info.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ApplicationUnderTestAppFolder.MyStore">
+            <summary>
+            The MyStore item.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ApplicationUnderTestAppFolder.MyStoreInfo">
+            <summary>
+            The MyStore item info.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ApplicationUnderTestAppFolder.Cart">
+            <summary>
+            The Cart item.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ApplicationUnderTestAppFolder.CartInfo">
+            <summary>
+            The Cart item info.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ApplicationUnderTestAppFolder.SearchPage">
+            <summary>
+            The SearchPage folder.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ApplicationUnderTestAppFolder.Homefeatured">
+            <summary>
+            The Homefeatured folder.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ApplicationUnderTestAppFolder.CenterColumn1">
+            <summary>
+            The CenterColumn1 folder.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ApplicationUnderTestAppFolder.Products">
+            <summary>
+            The Products folder.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ApplicationUnderTestAppFolder.ProductSale">
+            <summary>
+            The ProductSale folder.
+            </summary>
+        </member>
+        <member name="T:MyTest1.MyTest1RepositoryFolders.SearchPageFolder">
+            <summary>
+            The SearchPageFolder folder.
+            </summary>
+        </member>
+        <member name="M:MyTest1.MyTest1RepositoryFolders.SearchPageFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new SearchPage  folder.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.SearchPageFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.SearchPageFolder.SearchSuggestion">
+            <summary>
+            The SearchSuggestion item.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.SearchPageFolder.SearchSuggestionInfo">
+            <summary>
+            The SearchSuggestion item info.
+            </summary>
+        </member>
+        <member name="T:MyTest1.MyTest1RepositoryFolders.HomefeaturedFolder">
+            <summary>
+            The HomefeaturedFolder folder.
+            </summary>
+        </member>
+        <member name="M:MyTest1.MyTest1RepositoryFolders.HomefeaturedFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Homefeatured  folder.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.HomefeaturedFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.HomefeaturedFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.HomefeaturedFolder.AddToCart">
+            <summary>
+            The AddToCart item.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.HomefeaturedFolder.AddToCartInfo">
+            <summary>
+            The AddToCart item info.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.HomefeaturedFolder.Blouse">
+            <summary>
+            The Blouse item.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.HomefeaturedFolder.BlouseInfo">
+            <summary>
+            The Blouse item info.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.HomefeaturedFolder.AddToCart1">
+            <summary>
+            The AddToCart1 item.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.HomefeaturedFolder.AddToCart1Info">
+            <summary>
+            The AddToCart1 item info.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.HomefeaturedFolder.HttpAutomationpracticeComIndexPhpi">
+            <summary>
+            The HttpAutomationpracticeComIndexPhpi item.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.HomefeaturedFolder.HttpAutomationpracticeComIndexPhpiInfo">
+            <summary>
+            The HttpAutomationpracticeComIndexPhpi item info.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.HomefeaturedFolder.HttpAutomationpracticeComIndexPhpi1">
+            <summary>
+            The HttpAutomationpracticeComIndexPhpi1 item.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.HomefeaturedFolder.HttpAutomationpracticeComIndexPhpi1Info">
+            <summary>
+            The HttpAutomationpracticeComIndexPhpi1 item info.
+            </summary>
+        </member>
+        <member name="T:MyTest1.MyTest1RepositoryFolders.CenterColumn1Folder">
+            <summary>
+            The CenterColumn1Folder folder.
+            </summary>
+        </member>
+        <member name="M:MyTest1.MyTest1RepositoryFolders.CenterColumn1Folder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new CenterColumn1  folder.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.CenterColumn1Folder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.CenterColumn1Folder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.CenterColumn1Folder.YourOrderOnMyStoreIsComplete">
+            <summary>
+            The YourOrderOnMyStoreIsComplete item.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.CenterColumn1Folder.YourOrderOnMyStoreIsCompleteInfo">
+            <summary>
+            The YourOrderOnMyStoreIsComplete item info.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.CenterColumn1Folder.PayByBankWire">
+            <summary>
+            The PayByBankWire item.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.CenterColumn1Folder.PayByBankWireInfo">
+            <summary>
+            The PayByBankWire item info.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.CenterColumn1Folder.ProceedToCheckout">
+            <summary>
+            The ProceedToCheckout item.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.CenterColumn1Folder.ProceedToCheckoutInfo">
+            <summary>
+            The ProceedToCheckout item info.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.CenterColumn1Folder.ProceedToCheckout1">
+            <summary>
+            The ProceedToCheckout1 item.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.CenterColumn1Folder.ProceedToCheckout1Info">
+            <summary>
+            The ProceedToCheckout1 item info.
+            </summary>
+        </member>
+        <member name="T:MyTest1.MyTest1RepositoryFolders.ProductsFolder">
+            <summary>
+            The ProductsFolder folder.
+            </summary>
+        </member>
+        <member name="M:MyTest1.MyTest1RepositoryFolders.ProductsFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Products  folder.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ProductsFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ProductsFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ProductsFolder.product">
+            <summary>
+            The product item.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ProductsFolder.productInfo">
+            <summary>
+            The product item info.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ProductsFolder.product2">
+            <summary>
+            The product2 item.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ProductsFolder.product2Info">
+            <summary>
+            The product2 item info.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ProductsFolder.OrderMyStore">
+            <summary>
+            The OrderMyStore item.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ProductsFolder.OrderMyStoreInfo">
+            <summary>
+            The OrderMyStore item info.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ProductsFolder.InputTagCgv">
+            <summary>
+            The InputTagCgv item.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ProductsFolder.InputTagCgvInfo">
+            <summary>
+            The InputTagCgv item info.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ProductsFolder.SpanTagCheckOut">
+            <summary>
+            The SpanTagCheckOut item.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ProductsFolder.SpanTagCheckOutInfo">
+            <summary>
+            The SpanTagCheckOut item info.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ProductsFolder.HeaderLogo">
+            <summary>
+            The HeaderLogo item.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ProductsFolder.HeaderLogoInfo">
+            <summary>
+            The HeaderLogo item info.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ProductsFolder.TotalProduct">
+            <summary>
+            The TotalProduct item.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ProductsFolder.TotalProductInfo">
+            <summary>
+            The TotalProduct item info.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ProductsFolder.Products">
+            <summary>
+            The Products item.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ProductsFolder.ProductsInfo">
+            <summary>
+            The Products item info.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ProductsFolder.TotalProducts">
+            <summary>
+            The TotalProducts item.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ProductsFolder.TotalProductsInfo">
+            <summary>
+            The TotalProducts item info.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ProductsFolder.TotalShipping">
+            <summary>
+            The TotalShipping item.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ProductsFolder.TotalShippingInfo">
+            <summary>
+            The TotalShipping item info.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ProductsFolder.Tax">
+            <summary>
+            The Tax item.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ProductsFolder.TaxInfo">
+            <summary>
+            The Tax item info.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ProductsFolder.Total">
+            <summary>
+            The Total item.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ProductsFolder.TotalInfo">
+            <summary>
+            The Total item info.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ProductsFolder.ColumnsContainer">
+            <summary>
+            The ColumnsContainer item.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ProductsFolder.ColumnsContainerInfo">
+            <summary>
+            The ColumnsContainer item info.
+            </summary>
+        </member>
+        <member name="T:MyTest1.MyTest1RepositoryFolders.ProductSaleFolder">
+            <summary>
+            The ProductSaleFolder folder.
+            </summary>
+        </member>
+        <member name="M:MyTest1.MyTest1RepositoryFolders.ProductSaleFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new ProductSale  folder.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ProductSaleFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ProductSaleFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ProductSaleFolder.Product">
+            <summary>
+            The Product item.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ProductSaleFolder.ProductInfo">
+            <summary>
+            The Product item info.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ProductSaleFolder.Product1">
+            <summary>
+            The Product1 item.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ProductSaleFolder.Product1Info">
+            <summary>
+            The Product1 item info.
+            </summary>
+        </member>
+        <member name="T:MyTest1.MyTest1RepositoryFolders.ExplorerAppFolder">
+            <summary>
+            The ExplorerAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:MyTest1.MyTest1RepositoryFolders.ExplorerAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Explorer  folder.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ExplorerAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ExplorerAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ExplorerAppFolder.GoogleChrome1RunningWindow">
+            <summary>
+            The GoogleChrome1RunningWindow item.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ExplorerAppFolder.GoogleChrome1RunningWindowInfo">
+            <summary>
+            The GoogleChrome1RunningWindow item info.
+            </summary>
+        </member>
+        <member name="T:MyTest1.MyTest1RepositoryFolders.TaskSwitchingAppFolder">
+            <summary>
+            The TaskSwitchingAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:MyTest1.MyTest1RepositoryFolders.TaskSwitchingAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new TaskSwitching  folder.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.TaskSwitchingAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.TaskSwitchingAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="T:MyTest1.MyTest1RepositoryFolders.LQARanoreXTrainingCourseXlsxExcAppFolder">
+            <summary>
+            The LQARanoreXTrainingCourseXlsxExcAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:MyTest1.MyTest1RepositoryFolders.LQARanoreXTrainingCourseXlsxExcAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new LQARanoreXTrainingCourseXlsxExc  folder.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.LQARanoreXTrainingCourseXlsxExcAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.LQARanoreXTrainingCourseXlsxExcAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="T:MyTest1.MyTest1RepositoryFolders.LoginMyStoreGoogleChromeAppFolder">
+            <summary>
+            The LoginMyStoreGoogleChromeAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:MyTest1.MyTest1RepositoryFolders.LoginMyStoreGoogleChromeAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new LoginMyStoreGoogleChrome  folder.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.LoginMyStoreGoogleChromeAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.LoginMyStoreGoogleChromeAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="T:MyTest1.MyTest1RepositoryFolders.OpenAppFolder">
+            <summary>
+            The OpenAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:MyTest1.MyTest1RepositoryFolders.OpenAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Open  folder.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.OpenAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.OpenAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.OpenAppFolder.BaselineImage">
+            <summary>
+            The BaselineImage item.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.OpenAppFolder.BaselineImageInfo">
+            <summary>
+            The BaselineImage item info.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.OpenAppFolder.ButtonOpen">
+            <summary>
+            The ButtonOpen item.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.OpenAppFolder.ButtonOpenInfo">
+            <summary>
+            The ButtonOpen item info.
+            </summary>
+        </member>
+        <member name="T:MyTest1.MyTest1RepositoryFolders.ContactUsMyStoreGoogleChromeAppFolder">
+            <summary>
+            The ContactUsMyStoreGoogleChromeAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:MyTest1.MyTest1RepositoryFolders.ContactUsMyStoreGoogleChromeAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new ContactUsMyStoreGoogleChrome  folder.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ContactUsMyStoreGoogleChromeAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ContactUsMyStoreGoogleChromeAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="T:MyTest1.MyTest1RepositoryFolders.ThẻMớiGoogleChromeAppFolder">
+            <summary>
+            The ThẻMớiGoogleChromeAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:MyTest1.MyTest1RepositoryFolders.ThẻMớiGoogleChromeAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new ThẻMớiGoogleChrome  folder.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ThẻMớiGoogleChromeAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ThẻMớiGoogleChromeAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ThẻMớiGoogleChromeAppFolder.ThanhĐịaChỉVaTimKiếm">
+            <summary>
+            The ThanhĐịaChỉVaTimKiếm item.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ThẻMớiGoogleChromeAppFolder.ThanhĐịaChỉVaTimKiếmInfo">
+            <summary>
+            The ThanhĐịaChỉVaTimKiếm item info.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ThẻMớiGoogleChromeAppFolder.ThẻMới">
+            <summary>
+            The ThẻMới item.
+            </summary>
+        </member>
+        <member name="P:MyTest1.MyTest1RepositoryFolders.ThẻMớiGoogleChromeAppFolder.ThẻMớiInfo">
+            <summary>
+            The ThẻMới item info.
+            </summary>
+        </member>
+        <member name="T:MyTest1.OpenBrowser">
+             <summary>
+            The OpenBrowser recording.
+             </summary>
+        </member>
+        <member name="F:MyTest1.OpenBrowser.repo">
+            <summary>
+            Holds an instance of the MyTest1Repository repository.
+            </summary>
+        </member>
+        <member name="M:MyTest1.OpenBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:MyTest1.OpenBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:MyTest1.OpenBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:MyTest1.OpenBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:MyTest1.OpenBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:MyTest1.OpenBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:MyTest1.Recording1">
+             <summary>
+            The Recording1 recording.
+             </summary>
+        </member>
+        <member name="F:MyTest1.Recording1.repo">
+            <summary>
+            Holds an instance of the MyTest1Repository repository.
+            </summary>
+        </member>
+        <member name="M:MyTest1.Recording1.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:MyTest1.Recording1.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:MyTest1.Recording1.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:MyTest1.Recording1.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:MyTest1.Recording1.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:MyTest1.Recording1.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:MyTest1.Recording2">
+             <summary>
+            The Recording2 recording.
+             </summary>
+        </member>
+        <member name="F:MyTest1.Recording2.repo">
+            <summary>
+            Holds an instance of the MyTest1Repository repository.
+            </summary>
+        </member>
+        <member name="M:MyTest1.Recording2.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:MyTest1.Recording2.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:MyTest1.Recording2.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:MyTest1.Recording2.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:MyTest1.Recording2.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:MyTest1.Recording2.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:MyTest1.RecordingBuy">
+             <summary>
+            The RecordingBuy recording.
+             </summary>
+        </member>
+        <member name="F:MyTest1.RecordingBuy.repo">
+            <summary>
+            Holds an instance of the MyTest1Repository repository.
+            </summary>
+        </member>
+        <member name="M:MyTest1.RecordingBuy.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:MyTest1.RecordingBuy.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:MyTest1.RecordingBuy.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:MyTest1.RecordingBuy.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:MyTest1.RecordingBuy.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:MyTest1.RecordingBuy.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:MyTest1.RecordingBuy1">
+             <summary>
+            The RecordingBuy1 recording.
+             </summary>
+        </member>
+        <member name="F:MyTest1.RecordingBuy1.repo">
+            <summary>
+            Holds an instance of the MyTest1Repository repository.
+            </summary>
+        </member>
+        <member name="M:MyTest1.RecordingBuy1.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:MyTest1.RecordingBuy1.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:MyTest1.RecordingBuy1.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:MyTest1.RecordingBuy1.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:MyTest1.RecordingBuy1.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:MyTest1.RecordingBuy1.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:MyTest1.RecordingSale">
+             <summary>
+            The RecordingSale recording.
+             </summary>
+        </member>
+        <member name="F:MyTest1.RecordingSale.repo">
+            <summary>
+            Holds an instance of the MyTest1Repository repository.
+            </summary>
+        </member>
+        <member name="M:MyTest1.RecordingSale.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:MyTest1.RecordingSale.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:MyTest1.RecordingSale.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:MyTest1.RecordingSale.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:MyTest1.RecordingSale.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:MyTest1.RecordingSale.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:MyTest1.RecordingSearch">
+             <summary>
+            The RecordingSearch recording.
+             </summary>
+        </member>
+        <member name="F:MyTest1.RecordingSearch.repo">
+            <summary>
+            Holds an instance of the MyTest1Repository repository.
+            </summary>
+        </member>
+        <member name="M:MyTest1.RecordingSearch.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:MyTest1.RecordingSearch.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:MyTest1.RecordingSearch.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:MyTest1.RecordingSearch.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:MyTest1.RecordingSearch.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:MyTest1.RecordingSearch.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>

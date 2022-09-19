@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="45.65s"
+		durationms="45646"
+		type="root"
+		rid="1667eab96b447a5e"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Admin"
+		rxversion="10.2.3.0"
+		host="ADMIN"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="29/8/2022 10:58:09 AM"
+		timestampiso="2022-08-29T03:58:09"
+		endtime="29/8/2022 10:58:55 AM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="RecordingBuy1">
+		<detail>
+			RecordingBuy1
+		</detail>
+		<errormessage>
+			Failed to move to location 'Center' within element '{ATag:Blouse}'.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:45.527"
+			timeRelativeToTestModuleStartTime="00:45.527"
+			timeWallClock="10:58:55"
+			time="00:45.527"
+			level="Error"
+			category="Module"
+			errimg="images_Recordin_578c30fe\Recordin_578c30fe_45c1eeb5_trace.jpg"
+			errthumb="images_Recordin_578c30fe\Recordin_578c30fe_45c1eeb5_trace_thumb.jpg">
+			<message>
+				Failed to move to location 'Center' within element '{ATag:Blouse}'.<br/>The pointer cannot be moved to point '{X=715,Y=1226}' since it is outside of the visible desktop.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Mouse.MoveTo(Element element, Location location, Duration moveTime)
+   at Ranorex.Adapter.MoveTo(Location location, Duration moveTime, Boolean showOutOfBoundsWarning)
+   at Ranorex.Adapter.MoveTo(Location location)
+   at MyTest1.RecordingBuy1.Mouse_Move_Product(String productName) in c:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\RecordingBuy1.UserCode.cs:line 40
+   at MyTest1.RecordingBuy1.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\RecordingBuy1.cs:line 82
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\RecordingBuy1.UserCode.cs"
+				codeline="40"
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

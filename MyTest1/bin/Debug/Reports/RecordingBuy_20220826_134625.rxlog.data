@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="5.49s"
+		durationms="5488"
+		type="root"
+		rid="1f875ac39baf500"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Admin"
+		rxversion="10.2.3.0"
+		host="ADMIN"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="26/8/2022 1:46:27 PM"
+		timestampiso="2022-08-26T06:46:27"
+		endtime="26/8/2022 1:46:33 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="RecordingBuy">
+		<detail>
+			RecordingBuy
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.227"
+			timeRelativeToTestModuleStartTime="00:04.227"
+			timeWallClock="13:46:31"
+			time="00:04.227"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Move item 'ApplicationUnderTest.Cart' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='automationpractice.com']//div[@class='shopping_cart']"
+				itempath=".//div[@class='shopping_cart']"
+				fullname="MyTest1Repository.ApplicationUnderTest.Cart"
+				id="c47db11addb64bfd90b924e4f79a46c5"
+				timeout="60000"
+				codefile="c:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\RecordingBuy.cs"
+				codeline="82"
+				itemindex="8"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="18.01s"
+		durationms="18013"
+		type="root"
+		rid="1116a21ddcc9ae"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Admin"
+		rxversion="10.2.3.0"
+		host="ADMIN"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="25/8/2022 10:08:29 AM"
+		timestampiso="2022-08-25T03:08:29"
+		endtime="25/8/2022 10:08:47 AM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.003"
+			timeRelativeToTestModuleStartTime="00:05.003"
+			timeWallClock="10:08:34"
+			time="00:05.003"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.LogInToYourCustomerAccount' at 41;13.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='automationpractice.com']//header[#'header']/div[2]//nav/?/?/a[@innertext='Sign in']"
+				itempath=".//header[#'header']/div[2]//nav/?/?/a[@innertext='Sign in']"
+				fullname="MyTest1Repository.ApplicationUnderTest.LogInToYourCustomerAccount"
+				id="0de0a147919e4959807dda2b7800aa85"
+				timeout="60000"
+				codefile="c:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\Recording1.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.218"
+			timeRelativeToTestModuleStartTime="00:08.218"
+			timeWallClock="10:08:37"
+			time="00:08.218"
+			level="Warn"
+			category="Click"
+			errimg="images_Recordin_c6ba5d1b\Recordin_44a379be_rxlog.jpg"
+			errthumb="images_Recordin_c6ba5d1b\Recordin_44a379be_rxlog_thumb.jpg">
+			<message>
+				The mouse action was performed outside the boundaries of the assigned UI element.<br/>
+			</message>
+			<metainfo
+				codefile="c:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\Recording1.cs"
+				codeline="83"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.726"
+			timeRelativeToTestModuleStartTime="00:08.726"
+			timeWallClock="10:08:38"
+			time="00:08.726"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.EmailCreate' at 194;11.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='automationpractice.com']//input[#'email_create']"
+				itempath=".//input[#'email_create']"
+				fullname="MyTest1Repository.ApplicationUnderTest.EmailCreate"
+				id="05171308b3b446bab0c659035a8751ea"
+				timeout="60000"
+				codefile="c:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\Recording1.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.942"
+			timeRelativeToTestModuleStartTime="00:14.942"
+			timeWallClock="10:08:44"
+			time="00:14.942"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'abc123' with focus on 'ApplicationUnderTest.EmailCreate'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='automationpractice.com']//input[#'email_create']"
+				itempath=".//input[#'email_create']"
+				fullname="MyTest1Repository.ApplicationUnderTest.EmailCreate"
+				id="05171308b3b446bab0c659035a8751ea"
+				timeout="60000"
+				codefile="c:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\Recording1.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.402"
+			timeRelativeToTestModuleStartTime="00:15.402"
+			timeWallClock="10:08:44"
+			time="00:15.402"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.SpanTagCreateAnAccount' at 176;12.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='automationpractice.com']//button[#'SubmitCreate']/span[@innertext>'Create an account']"
+				itempath=".//button[#'SubmitCreate']/span[@innertext>'Create an account']"
+				fullname="MyTest1Repository.ApplicationUnderTest.SpanTagCreateAnAccount"
+				id="3340d3ea9d9b4e45b6f2c801c0ebe71e"
+				timeout="60000"
+				codefile="c:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\Recording1.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.058"
+			timeRelativeToTestModuleStartTime="00:16.058"
+			timeWallClock="10:08:45"
+			time="00:16.058"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Visible='True') on item 'ApplicationUnderTest.CreateAccountError'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='automationpractice.com']//div[#'create_account_error']"
+				itempath=".//div[#'create_account_error']"
+				fullname="MyTest1Repository.ApplicationUnderTest.CreateAccountError"
+				id="9a23ffbe90c643c3a40c4319bf3ed8f0"
+				timeout="60000"
+				codefile="c:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\Recording1.cs"
+				codeline="98"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:17.906"
+			timeRelativeToTestModuleStartTime="00:17.906"
+			timeWallClock="10:08:47"
+			time="00:17.906"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Visible' of element for item 'MyTest1Repository.ApplicationUnderTest.CreateAccountError' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='automationpractice.com']//div[#'create_account_error']"
+				itempath=".//div[#'create_account_error']"
+				fullname="MyTest1Repository.ApplicationUnderTest.CreateAccountError"
+				id="9a23ffbe90c643c3a40c4319bf3ed8f0"
+				timeout="60000"
+				codefile="c:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\Recording1.cs"
+				codeline="99"
+				loglvl="Success"
+				itemindex="4">
+			</metainfo>
+		</item>
+	</activity>
+</report>

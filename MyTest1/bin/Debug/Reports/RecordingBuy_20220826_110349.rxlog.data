@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="48.69s"
+		durationms="48688"
+		type="root"
+		rid="11724ee81c6d187a"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Admin"
+		rxversion="10.2.3.0"
+		host="ADMIN"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="26/8/2022 11:03:51 AM"
+		timestampiso="2022-08-26T04:03:51"
+		endtime="26/8/2022 11:04:40 AM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="RecordingBuy">
+		<detail>
+			RecordingBuy
+		</detail>
+		<errormessage>
+			Failed to move to location '1909;202' within element '{WebDocument:My Store}'.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:46.063"
+			timeRelativeToTestModuleStartTime="00:46.063"
+			timeWallClock="11:04:37"
+			time="00:46.063"
+			level="Info"
+			category="Mouse"
+			errimg="images_Recordin_8f1913ef\Recordin_8f1913ef_e41e5847_trace.jpg"
+			errthumb="images_Recordin_8f1913ef\Recordin_8f1913ef_e41e5847_trace_thumb.jpg">
+			<message>
+				Mouse Left Down item 'ApplicationUnderTest' at 1909;202.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='automationpractice.com']"
+				itempath="/dom[@domain='automationpractice.com']"
+				fullname="MyTest1Repository.ApplicationUnderTest.Self"
+				id="ae714fe34f0f421fa829f4f7f77d0242"
+				timeout="30000"
+				codefile="c:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\RecordingBuy.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:48.299"
+			timeRelativeToTestModuleStartTime="00:48.299"
+			timeWallClock="11:04:40"
+			time="00:48.299"
+			level="Warn"
+			category="MoveTo"
+			errimg="images_Recordin_8f1913ef\Recordin_91fbd845_rxlog.jpg"
+			errthumb="images_Recordin_8f1913ef\Recordin_91fbd845_rxlog_thumb.jpg">
+			<message>
+				The mouse action was performed outside the boundaries of the assigned UI element.<br/>
+			</message>
+			<metainfo
+				codefile="c:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\RecordingBuy.cs"
+				codeline="83"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:48.585"
+			timeRelativeToTestModuleStartTime="00:48.585"
+			timeWallClock="11:04:40"
+			time="00:48.585"
+			level="Error"
+			category="Module"
+			errimg="images_Recordin_8f1913ef\Recordin_8f1913ef_e8b79d37_trace.jpg"
+			errthumb="images_Recordin_8f1913ef\Recordin_8f1913ef_e8b79d37_trace_thumb.jpg">
+			<message>
+				Failed to move to location '1909;202' within element '{WebDocument:My Store}'.<br/>The pointer cannot be moved to point '{X=2248,Y=-34}' since it is outside of the visible desktop.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Mouse.MoveTo(Element element, Location location, Duration moveTime)
+   at Ranorex.Adapter.MoveTo(Location location, Duration moveTime, Boolean showOutOfBoundsWarning)
+   at Ranorex.Adapter.MoveTo(Location location)
+   at MyTest1.RecordingBuy.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\RecordingBuy.cs:line 83
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\RecordingBuy.cs"
+				codeline="83"
+				type="repoitem"
+				path="/dom[@domain='automationpractice.com']"
+				itempath="/dom[@domain='automationpractice.com']"
+				fullname="MyTest1Repository.ApplicationUnderTest.Self"
+				id="ae714fe34f0f421fa829f4f7f77d0242"
+				timeout="30000"
+				loglvl="Error"
+				itemindex="0">
+			</metainfo>
+		</item>
+	</activity>
+</report>

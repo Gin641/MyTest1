@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="40.85s"
+		durationms="40854"
+		type="root"
+		rid="180716198d87cf06"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Admin"
+		rxversion="10.2.3.0"
+		host="ADMIN"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="26/8/2022 10:25:37 AM"
+		timestampiso="2022-08-26T03:25:37"
+		endtime="26/8/2022 10:26:18 AM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="RecordingBuy">
+		<detail>
+			RecordingBuy
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:34.375"
+			timeRelativeToTestModuleStartTime="00:34.375"
+			timeWallClock="10:26:12"
+			time="00:34.375"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest' at 981;885.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='automationpractice.com']"
+				itempath="/dom[@domain='automationpractice.com']"
+				fullname="MyTest1Repository.ApplicationUnderTest.Self"
+				id="ae714fe34f0f421fa829f4f7f77d0242"
+				timeout="30000"
+				codefile="c:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\RecordingBuy.cs"
+				codeline="98"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:36.421"
+			timeRelativeToTestModuleStartTime="00:36.421"
+			timeWallClock="10:26:14"
+			time="00:36.421"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.AddedExclusive' at 28;20.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='automationpractice.com']//p[#'add_to_cart']/button"
+				itempath=".//p[#'add_to_cart']/button"
+				fullname="MyTest1Repository.ApplicationUnderTest.AddedExclusive"
+				id="d0a4bfeb3ad34f42a2b4d1594a4ad566"
+				timeout="60000"
+				codefile="c:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\RecordingBuy.cs"
+				codeline="102"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:38.953"
+			timeRelativeToTestModuleStartTime="00:38.953"
+			timeWallClock="10:26:16"
+			time="00:38.953"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.SpanTagProceedToCheckout' at 95;23.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='automationpractice.com']//div[@id='layer_cart' and @style~'display: block']//a[@title='Proceed to checkout']/span[@innertext>'Proceed to checko']"
+				itempath=".//div[@id='layer_cart' and @style~'display: block']//a[@title='Proceed to checkout']/span[@innertext>'Proceed to checko']"
+				fullname="MyTest1Repository.ApplicationUnderTest.SpanTagProceedToCheckout"
+				id="9b7e67ffa13a4de28b9a41506a24dc07"
+				timeout="60000"
+				codefile="c:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\RecordingBuy.cs"
+				codeline="106"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

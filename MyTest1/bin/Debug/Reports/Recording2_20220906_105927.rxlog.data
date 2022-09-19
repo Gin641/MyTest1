@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="7.56s"
+		durationms="7557"
+		type="root"
+		rid="fa422b47c0f624"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Admin"
+		rxversion="10.2.3.0"
+		host="ADMIN"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="6/9/2022 10:59:30 AM"
+		timestampiso="2022-09-06T03:59:30"
+		endtime="6/9/2022 10:59:37 AM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Recording2">
+		<detail>
+			Recording2
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.165"
+			timeRelativeToTestModuleStartTime="00:03.165"
+			timeWallClock="10:59:33"
+			time="00:03.165"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.IdContact' at 249;18.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='automationpractice.com']//select[#'id_contact']"
+				itempath=".//select[#'id_contact']"
+				fullname="MyTest1Repository.ApplicationUnderTest.IdContact"
+				id="76c8e35c381a4dfc84fc4ae88541f2e8"
+				timeout="60000"
+				codefile="c:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\Recording2.cs"
+				codeline="82"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.400"
+			timeRelativeToTestModuleStartTime="00:06.400"
+			timeWallClock="10:59:36"
+			time="00:06.400"
+			level="Warn"
+			category="Click"
+			errimg="images_Recordin_9599723a\Recordin_de0014b1_rxlog.jpg"
+			errthumb="images_Recordin_9599723a\Recordin_de0014b1_rxlog_thumb.jpg">
+			<message>
+				The mouse action was performed outside the boundaries of the assigned UI element.<br/>
+			</message>
+			<metainfo
+				codefile="c:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\Recording2.cs"
+				codeline="83"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.941"
+			timeRelativeToTestModuleStartTime="00:06.941"
+			timeWallClock="10:59:37"
+			time="00:06.941"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'formInfo' at 587;672.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'Contact us - My Store - Google']"
+				itempath="/form[@title>'Contact us - My Store - Google']"
+				fullname="MyTest1Repository.ContactUsMyStoreGoogleChrome.Self"
+				id="c4daf82ebeb440e28655e24f7495a074"
+				timeout="30000"
+				codefile="c:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\Recording2.UserCode.cs"
+				codeline="51"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

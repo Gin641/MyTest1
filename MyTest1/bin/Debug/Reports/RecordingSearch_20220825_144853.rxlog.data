@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="9.89s"
+		durationms="9886"
+		type="root"
+		rid="1d80eb79e401cd46"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Admin"
+		rxversion="10.2.3.0"
+		host="ADMIN"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="25/8/2022 2:48:56 PM"
+		timestampiso="2022-08-25T07:48:56"
+		endtime="25/8/2022 2:49:06 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="RecordingSearch">
+		<detail>
+			RecordingSearch
+		</detail>
+		<errormessage>
+			Condition is not true.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.707"
+			timeRelativeToTestModuleStartTime="00:09.707"
+			timeWallClock="14:49:06"
+			time="00:09.707"
+			level="Success"
+			category="Validation"
+			errimg="images_Recordin_80e2c052\Recordin_80e2c052_5adf7057_trace.jpg"
+			errthumb="images_Recordin_80e2c052\Recordin_80e2c052_5adf7057_trace_thumb.jpg">
+			<message>
+				Condition is true.
+			</message>
+			<metainfo
+				codefile="c:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\RecordingSearch.UserCode.cs"
+				codeline="41"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.715"
+			timeRelativeToTestModuleStartTime="00:09.715"
+			timeWallClock="14:49:06"
+			time="00:09.715"
+			level="Success"
+			category="Validation"
+			errimg="images_Recordin_80e2c052\Recordin_80e2c052_5adf7057_trace.jpg"
+			errthumb="images_Recordin_80e2c052\Recordin_80e2c052_5adf7057_trace_thumb.jpg">
+			<message>
+				Condition is true.
+			</message>
+			<metainfo
+				codefile="c:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\RecordingSearch.UserCode.cs"
+				codeline="41"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.717"
+			timeRelativeToTestModuleStartTime="00:09.717"
+			timeWallClock="14:49:06"
+			time="00:09.717"
+			level="Success"
+			category="Validation"
+			errimg="images_Recordin_80e2c052\Recordin_80e2c052_5adf7057_trace.jpg"
+			errthumb="images_Recordin_80e2c052\Recordin_80e2c052_5adf7057_trace_thumb.jpg">
+			<message>
+				Condition is true.
+			</message>
+			<metainfo
+				codefile="c:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\RecordingSearch.UserCode.cs"
+				codeline="41"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.718"
+			timeRelativeToTestModuleStartTime="00:09.718"
+			timeWallClock="14:49:06"
+			time="00:09.718"
+			level="Success"
+			category="Validation"
+			errimg="images_Recordin_80e2c052\Recordin_80e2c052_5adf7057_trace.jpg"
+			errthumb="images_Recordin_80e2c052\Recordin_80e2c052_5adf7057_trace_thumb.jpg">
+			<message>
+				Condition is true.
+			</message>
+			<metainfo
+				codefile="c:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\RecordingSearch.UserCode.cs"
+				codeline="41"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.720"
+			timeRelativeToTestModuleStartTime="00:09.720"
+			timeWallClock="14:49:06"
+			time="00:09.720"
+			level="Success"
+			category="Validation"
+			errimg="images_Recordin_80e2c052\Recordin_80e2c052_5adf7057_trace.jpg"
+			errthumb="images_Recordin_80e2c052\Recordin_80e2c052_5adf7057_trace_thumb.jpg">
+			<message>
+				Condition is true.
+			</message>
+			<metainfo
+				codefile="c:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\RecordingSearch.UserCode.cs"
+				codeline="41"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.721"
+			timeRelativeToTestModuleStartTime="00:09.721"
+			timeWallClock="14:49:06"
+			time="00:09.721"
+			level="Failure"
+			category="Validation"
+			errimg="images_Recordin_80e2c052\Recordin_80e2c052_5adf7057_trace.jpg"
+			errthumb="images_Recordin_80e2c052\Recordin_80e2c052_5adf7057_trace_thumb.jpg">
+			<message>
+				Condition is not true.
+			</message>
+			<metainfo
+				codefile="c:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\RecordingSearch.UserCode.cs"
+				codeline="41"
+				loglvl="Failure">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.725"
+			timeRelativeToTestModuleStartTime="00:09.725"
+			timeWallClock="14:49:06"
+			time="00:09.725"
+			level="Error"
+			category="Module"
+			errimg="images_Recordin_80e2c052\Recordin_80e2c052_5adf7057_trace.jpg"
+			errthumb="images_Recordin_80e2c052\Recordin_80e2c052_5adf7057_trace_thumb.jpg">
+			<message>
+				Module execution was aborted because a validation step has failed. Condition is not true.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Validate.ThrowValidationException(RepoItemInfo itemInfo, ValidationException ex)
+   at Ranorex.Validate.IsTrueInternal(Boolean condition, String message, Options options, RepoItemInfo itemInfo, RanorexException innerException)
+   at Ranorex.Validate.IsTrue(Boolean condition)
+   at MyTest1.RecordingSearch.validateSearchSuggestions(RepoItemInfo searchSuggestions) in c:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\RecordingSearch.UserCode.cs:line 41
+   at MyTest1.RecordingSearch.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\RecordingSearch.cs:line 82
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\RecordingSearch.UserCode.cs"
+				codeline="41"
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

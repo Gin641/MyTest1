@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="19.46s"
+		durationms="19456"
+		type="root"
+		rid="24b51fbb10f1d9e"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Admin"
+		rxversion="10.2.3.0"
+		host="ADMIN"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="26/8/2022 11:06:52 AM"
+		timestampiso="2022-08-26T04:06:52"
+		endtime="26/8/2022 11:07:11 AM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="RecordingBuy">
+		<detail>
+			RecordingBuy
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.394"
+			timeRelativeToTestModuleStartTime="00:05.394"
+			timeWallClock="11:06:57"
+			time="00:05.394"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Down item 'ApplicationUnderTest' at 1909;202.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='automationpractice.com']"
+				itempath="/dom[@domain='automationpractice.com']"
+				fullname="MyTest1Repository.ApplicationUnderTest.Self"
+				id="ae714fe34f0f421fa829f4f7f77d0242"
+				timeout="30000"
+				codefile="c:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\RecordingBuy.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.765"
+			timeRelativeToTestModuleStartTime="00:06.765"
+			timeWallClock="11:06:59"
+			time="00:06.765"
+			level="Warn"
+			category="MoveTo"
+			errimg="images_Recordin_8f1413ef\Recordin_9116d845_rxlog.jpg"
+			errthumb="images_Recordin_8f1413ef\Recordin_9116d845_rxlog_thumb.jpg">
+			<message>
+				The mouse action was performed outside the boundaries of the assigned UI element.<br/>
+			</message>
+			<metainfo
+				codefile="c:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\RecordingBuy.cs"
+				codeline="83"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.351"
+			timeRelativeToTestModuleStartTime="00:07.351"
+			timeWallClock="11:06:59"
+			time="00:07.351"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Up item 'ApplicationUnderTest' at 1919;328.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='automationpractice.com']"
+				itempath="/dom[@domain='automationpractice.com']"
+				fullname="MyTest1Repository.ApplicationUnderTest.Self"
+				id="ae714fe34f0f421fa829f4f7f77d0242"
+				timeout="30000"
+				codefile="c:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\RecordingBuy.cs"
+				codeline="87"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.828"
+			timeRelativeToTestModuleStartTime="00:07.828"
+			timeWallClock="11:07:00"
+			time="00:07.828"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Move item 'ApplicationUnderTest.product' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='automationpractice.com']//div[@class='product-image-container'][2]"
+				itempath=".//div[@class='product-image-container'][2]"
+				fullname="MyTest1Repository.ApplicationUnderTest.product"
+				id="16027fc25d4d4c35b461d16859fa6560"
+				timeout="60000"
+				codefile="c:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\RecordingBuy.cs"
+				codeline="92"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.418"
+			timeRelativeToTestModuleStartTime="00:08.418"
+			timeWallClock="11:07:00"
+			time="00:08.418"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.Homefeatured.AddToCart' at 21;13.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='automationpractice.com']//ul[#'homefeatured']//li[@class~'hovered']//a[@title='Add to cart']/span[@innertext='Add to cart']"
+				itempath=".//li[@class~'hovered']//a[@title='Add to cart']/span[@innertext='Add to cart']"
+				fullname="MyTest1Repository.ApplicationUnderTest.Homefeatured.AddToCart"
+				id="43ff15924c98463cb5ba6198b12d12f5"
+				timeout="90000"
+				codefile="c:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\RecordingBuy.cs"
+				codeline="96"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.081"
+			timeRelativeToTestModuleStartTime="00:09.081"
+			timeWallClock="11:07:01"
+			time="00:09.081"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.ContinueShopping' at 84;14.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='automationpractice.com']//div[@id='layer_cart' and @style~'display: block']//span[@title='Continue shopping']/span[@innertext='Continue shopping']"
+				itempath=".//div[@id='layer_cart' and @style~'display: block']//span[@title='Continue shopping']/span[@innertext='Continue shopping']"
+				fullname="MyTest1Repository.ApplicationUnderTest.ContinueShopping"
+				id="5c91c159b2a4438c9b5b02036b8373ac"
+				timeout="60000"
+				codefile="c:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\RecordingBuy.cs"
+				codeline="100"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:19.457"
+			timeRelativeToTestModuleStartTime="00:19.457"
+			timeWallClock="11:07:11"
+			time="00:19.457"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

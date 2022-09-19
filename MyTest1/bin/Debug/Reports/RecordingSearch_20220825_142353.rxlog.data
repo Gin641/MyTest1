@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="28.07s"
+		durationms="28074"
+		type="root"
+		rid="a7b2c9b1d25c5d0"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Admin"
+		rxversion="10.2.3.0"
+		host="ADMIN"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="25/8/2022 2:23:56 PM"
+		timestampiso="2022-08-25T07:23:56"
+		endtime="25/8/2022 2:24:24 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="RecordingSearch">
+		<detail>
+			RecordingSearch
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:23.739"
+			timeRelativeToTestModuleStartTime="00:23.739"
+			timeWallClock="14:24:20"
+			time="00:23.739"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Placeholder='Search') on item 'ApplicationUnderTest.SearchQueryTop'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='automationpractice.com']//input[#'search_query_top']"
+				itempath=".//input[#'search_query_top']"
+				fullname="MyTest1Repository.ApplicationUnderTest.SearchQueryTop"
+				id="db9860b010304b03954a9c7377a5afc1"
+				timeout="60000"
+				codefile="c:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\RecordingSearch.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:25.431"
+			timeRelativeToTestModuleStartTime="00:25.431"
+			timeWallClock="14:24:22"
+			time="00:25.431"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Placeholder' of element for item 'MyTest1Repository.ApplicationUnderTest.SearchQueryTop' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='automationpractice.com']//input[#'search_query_top']"
+				itempath=".//input[#'search_query_top']"
+				fullname="MyTest1Repository.ApplicationUnderTest.SearchQueryTop"
+				id="db9860b010304b03954a9c7377a5afc1"
+				timeout="60000"
+				codefile="c:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\RecordingSearch.cs"
+				codeline="83"
+				loglvl="Success"
+				itemindex="0">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:25.539"
+			timeRelativeToTestModuleStartTime="00:25.539"
+			timeWallClock="14:24:22"
+			time="00:25.539"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Value='') on item 'ApplicationUnderTest.SearchQueryTop'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='automationpractice.com']//input[#'search_query_top']"
+				itempath=".//input[#'search_query_top']"
+				fullname="MyTest1Repository.ApplicationUnderTest.SearchQueryTop"
+				id="db9860b010304b03954a9c7377a5afc1"
+				timeout="60000"
+				codefile="c:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\RecordingSearch.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:25.733"
+			timeRelativeToTestModuleStartTime="00:25.733"
+			timeWallClock="14:24:22"
+			time="00:25.733"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Value' of element for item 'MyTest1Repository.ApplicationUnderTest.SearchQueryTop' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='automationpractice.com']//input[#'search_query_top']"
+				itempath=".//input[#'search_query_top']"
+				fullname="MyTest1Repository.ApplicationUnderTest.SearchQueryTop"
+				id="db9860b010304b03954a9c7377a5afc1"
+				timeout="60000"
+				codefile="c:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\RecordingSearch.cs"
+				codeline="87"
+				loglvl="Success"
+				itemindex="1">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:25.840"
+			timeRelativeToTestModuleStartTime="00:25.840"
+			timeWallClock="14:24:22"
+			time="00:25.840"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.SearchQueryTop' at 106;19.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='automationpractice.com']//input[#'search_query_top']"
+				itempath=".//input[#'search_query_top']"
+				fullname="MyTest1Repository.ApplicationUnderTest.SearchQueryTop"
+				id="db9860b010304b03954a9c7377a5afc1"
+				timeout="60000"
+				codefile="c:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\RecordingSearch.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:27.467"
+			timeRelativeToTestModuleStartTime="00:27.467"
+			timeWallClock="14:24:24"
+			time="00:27.467"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'abc' with focus on 'ApplicationUnderTest.SearchQueryTop'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='automationpractice.com']//input[#'search_query_top']"
+				itempath=".//input[#'search_query_top']"
+				fullname="MyTest1Repository.ApplicationUnderTest.SearchQueryTop"
+				id="db9860b010304b03954a9c7377a5afc1"
+				timeout="60000"
+				codefile="c:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\RecordingSearch.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:27.782"
+			timeRelativeToTestModuleStartTime="00:27.782"
+			timeWallClock="14:24:24"
+			time="00:27.782"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Value='abc') on item 'ApplicationUnderTest.SearchQueryTop'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='automationpractice.com']//input[#'search_query_top']"
+				itempath=".//input[#'search_query_top']"
+				fullname="MyTest1Repository.ApplicationUnderTest.SearchQueryTop"
+				id="db9860b010304b03954a9c7377a5afc1"
+				timeout="60000"
+				codefile="c:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\RecordingSearch.cs"
+				codeline="98"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:27.967"
+			timeRelativeToTestModuleStartTime="00:27.967"
+			timeWallClock="14:24:24"
+			time="00:27.967"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Value' of element for item 'MyTest1Repository.ApplicationUnderTest.SearchQueryTop' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='automationpractice.com']//input[#'search_query_top']"
+				itempath=".//input[#'search_query_top']"
+				fullname="MyTest1Repository.ApplicationUnderTest.SearchQueryTop"
+				id="db9860b010304b03954a9c7377a5afc1"
+				timeout="60000"
+				codefile="c:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\RecordingSearch.cs"
+				codeline="99"
+				loglvl="Success"
+				itemindex="4">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,444 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="36.65s"
+		durationms="36654"
+		type="root"
+		rid="276630b428b1e7c6"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Admin"
+		rxversion="10.2.3.0"
+		host="ADMIN"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="26/8/2022 3:44:39 PM"
+		timestampiso="2022-08-26T08:44:39"
+		endtime="26/8/2022 3:45:15 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="RecordingBuy">
+		<detail>
+			RecordingBuy
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.535"
+			timeRelativeToTestModuleStartTime="00:06.535"
+			timeWallClock="15:44:45"
+			time="00:06.535"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Move item 'ApplicationUnderTest.Products.product' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='automationpractice.com']//div[@class='product-image-container'][2]"
+				itempath=".//div[@class='product-image-container'][2]"
+				fullname="MyTest1Repository.ApplicationUnderTest.Products.product"
+				id="16027fc25d4d4c35b461d16859fa6560"
+				timeout="90000"
+				codefile="c:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\RecordingBuy.cs"
+				codeline="92"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.811"
+			timeRelativeToTestModuleStartTime="00:07.811"
+			timeWallClock="15:44:46"
+			time="00:07.811"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.Homefeatured.AddToCart' at 21;13.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='automationpractice.com']//ul[#'homefeatured']//li[@class~'hovered']//a[@title='Add to cart']/span[@innertext='Add to cart']"
+				itempath=".//li[@class~'hovered']//a[@title='Add to cart']/span[@innertext='Add to cart']"
+				fullname="MyTest1Repository.ApplicationUnderTest.Homefeatured.AddToCart"
+				id="43ff15924c98463cb5ba6198b12d12f5"
+				timeout="90000"
+				codefile="c:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\RecordingBuy.cs"
+				codeline="96"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.515"
+			timeRelativeToTestModuleStartTime="00:08.515"
+			timeWallClock="15:44:47"
+			time="00:08.515"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.ContinueShopping' at 84;14.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='automationpractice.com']//div[@id='layer_cart' and @style~'display: block']//span[@title='Continue shopping']/span[@innertext='Continue shopping']"
+				itempath=".//div[@id='layer_cart' and @style~'display: block']//span[@title='Continue shopping']/span[@innertext='Continue shopping']"
+				fullname="MyTest1Repository.ApplicationUnderTest.ContinueShopping"
+				id="5c91c159b2a4438c9b5b02036b8373ac"
+				timeout="60000"
+				codefile="c:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\RecordingBuy.cs"
+				codeline="100"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.516"
+			timeRelativeToTestModuleStartTime="00:10.516"
+			timeWallClock="15:44:49"
+			time="00:10.516"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Move item 'ApplicationUnderTest.Products.product2' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='automationpractice.com']//div[@class='product-image-container'][3]"
+				itempath=".//div[@class='product-image-container'][3]"
+				fullname="MyTest1Repository.ApplicationUnderTest.Products.product2"
+				id="8aec4855074b425c8d2b5cfb49d92ba2"
+				timeout="90000"
+				codefile="c:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\RecordingBuy.cs"
+				codeline="104"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.191"
+			timeRelativeToTestModuleStartTime="00:11.191"
+			timeWallClock="15:44:50"
+			time="00:11.191"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.Homefeatured.AddToCart' at 61;9.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='automationpractice.com']//ul[#'homefeatured']//li[@class~'hovered']//a[@title='Add to cart']/span[@innertext='Add to cart']"
+				itempath=".//li[@class~'hovered']//a[@title='Add to cart']/span[@innertext='Add to cart']"
+				fullname="MyTest1Repository.ApplicationUnderTest.Homefeatured.AddToCart"
+				id="43ff15924c98463cb5ba6198b12d12f5"
+				timeout="90000"
+				codefile="c:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\RecordingBuy.cs"
+				codeline="108"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.915"
+			timeRelativeToTestModuleStartTime="00:11.915"
+			timeWallClock="15:44:51"
+			time="00:11.915"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.ContinueShopping' at 53;14.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='automationpractice.com']//div[@id='layer_cart' and @style~'display: block']//span[@title='Continue shopping']/span[@innertext='Continue shopping']"
+				itempath=".//div[@id='layer_cart' and @style~'display: block']//span[@title='Continue shopping']/span[@innertext='Continue shopping']"
+				fullname="MyTest1Repository.ApplicationUnderTest.ContinueShopping"
+				id="5c91c159b2a4438c9b5b02036b8373ac"
+				timeout="60000"
+				codefile="c:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\RecordingBuy.cs"
+				codeline="112"
+				itemindex="7"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.732"
+			timeRelativeToTestModuleStartTime="00:13.732"
+			timeWallClock="15:44:52"
+			time="00:13.732"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Move item 'ApplicationUnderTest.Cart' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='automationpractice.com']//div[@class='shopping_cart']"
+				itempath=".//div[@class='shopping_cart']"
+				fullname="MyTest1Repository.ApplicationUnderTest.Cart"
+				id="c47db11addb64bfd90b924e4f79a46c5"
+				timeout="60000"
+				codefile="c:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\RecordingBuy.cs"
+				codeline="116"
+				itemindex="8"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.787"
+			timeRelativeToTestModuleStartTime="00:15.787"
+			timeWallClock="15:44:54"
+			time="00:15.787"
+			level="Success"
+			category="Validation">
+			<message>
+				Condition is true.
+			</message>
+			<metainfo
+				codefile="c:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\RecordingBuy.UserCode.cs"
+				codeline="45"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.787"
+			timeRelativeToTestModuleStartTime="00:15.787"
+			timeWallClock="15:44:54"
+			time="00:15.787"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.Products.SpanTagCheckOut' at 126;3.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='automationpractice.com']//a[#'button_order_cart']/span[@innertext='Check out']"
+				itempath=".//a[#'button_order_cart']/span[@innertext='Check out']"
+				fullname="MyTest1Repository.ApplicationUnderTest.Products.SpanTagCheckOut"
+				id="15ad5318351046f3a3997569318a724b"
+				timeout="90000"
+				codefile="c:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\RecordingBuy.cs"
+				codeline="123"
+				itemindex="10"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:19.591"
+			timeRelativeToTestModuleStartTime="00:19.591"
+			timeWallClock="15:44:58"
+			time="00:19.591"
+			level="Success"
+			category="Validation">
+			<message>
+				Condition is true.
+			</message>
+			<metainfo
+				codefile="c:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\RecordingBuy.UserCode.cs"
+				codeline="54"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:19.592"
+			timeRelativeToTestModuleStartTime="00:19.592"
+			timeWallClock="15:44:58"
+			time="00:19.592"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.CenterColumn1.ProceedToCheckout1' at 16;18.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='automationpractice.com']//div[#'center_column']//span[@innertext='Proceed to checkout']"
+				itempath=".//span[@innertext='Proceed to checkout']"
+				fullname="MyTest1Repository.ApplicationUnderTest.CenterColumn1.ProceedToCheckout1"
+				id="2bcd9ebfeb4e43f5aa2049f7cea5cf33"
+				timeout="90000"
+				codefile="c:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\RecordingBuy.cs"
+				codeline="140"
+				itemindex="14"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:20.233"
+			timeRelativeToTestModuleStartTime="00:20.233"
+			timeWallClock="15:44:59"
+			time="00:20.233"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.CenterColumn1.ProceedToCheckout' at 55;13.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='automationpractice.com']//div[#'center_column']/form[@action='http://automationpractice.com/index.php?controller=order']//span[@innertext='Proceed to checkout']"
+				itempath="form[@action='http://automationpractice.com/index.php?controller=order']//span[@innertext='Proceed to checkout']"
+				fullname="MyTest1Repository.ApplicationUnderTest.CenterColumn1.ProceedToCheckout"
+				id="01ebf40afcc14fc59eaa083325f80c31"
+				timeout="90000"
+				codefile="c:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\RecordingBuy.cs"
+				codeline="154"
+				itemindex="17"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:22.764"
+			timeRelativeToTestModuleStartTime="00:22.764"
+			timeWallClock="15:45:01"
+			time="00:22.764"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.Products.InputTagCgv' at 6;10.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='automationpractice.com']//input[#'cgv']"
+				itempath=".//input[#'cgv']"
+				fullname="MyTest1Repository.ApplicationUnderTest.Products.InputTagCgv"
+				id="96461644b9844031a2aa5ca21aff1454"
+				timeout="90000"
+				codefile="c:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\RecordingBuy.cs"
+				codeline="158"
+				itemindex="18"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:26.613"
+			timeRelativeToTestModuleStartTime="00:26.613"
+			timeWallClock="15:45:05"
+			time="00:26.613"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.SpanTagProceedToCheckout1' at 124;27.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='automationpractice.com']//form[#'form']//span[@innertext>'Proceed to checkout']"
+				itempath=".//form[#'form']//span[@innertext>'Proceed to checkout']"
+				fullname="MyTest1Repository.ApplicationUnderTest.SpanTagProceedToCheckout1"
+				id="726b73e2f8ab4fe290e5a69f1e9317df"
+				timeout="60000"
+				codefile="c:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\RecordingBuy.cs"
+				codeline="162"
+				itemindex="19"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:27.281"
+			timeRelativeToTestModuleStartTime="00:27.281"
+			timeWallClock="15:45:06"
+			time="00:27.281"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.CenterColumn1.PayByBankWire' at 313;15.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='automationpractice.com']//div[#'center_column']/div/div[3]//a[@innertext>'            Pay by bank']"
+				itempath="div/div[3]//a[@innertext>'            Pay by bank']"
+				fullname="MyTest1Repository.ApplicationUnderTest.CenterColumn1.PayByBankWire"
+				id="3e1a645f8e2547c29bfe1d2eb4d570e0"
+				timeout="90000"
+				codefile="c:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\RecordingBuy.cs"
+				codeline="176"
+				itemindex="22"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:30.250"
+			timeRelativeToTestModuleStartTime="00:30.250"
+			timeWallClock="15:45:09"
+			time="00:30.250"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.IConfirmMyOrder' at 92;17.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='automationpractice.com']//p[#'cart_navigation']/?/?/span[@innertext='I confirm my order']"
+				itempath=".//p[#'cart_navigation']/?/?/span[@innertext='I confirm my order']"
+				fullname="MyTest1Repository.ApplicationUnderTest.IConfirmMyOrder"
+				id="dc06adba3f1b46638d97f31c9d3cb2a6"
+				timeout="60000"
+				codefile="c:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\RecordingBuy.cs"
+				codeline="180"
+				itemindex="23"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:32.165"
+			timeRelativeToTestModuleStartTime="00:32.165"
+			timeWallClock="15:45:11"
+			time="00:32.165"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Visible='True') on item 'ApplicationUnderTest.CenterColumn1.YourOrderOnMyStoreIsComplete'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='automationpractice.com']//div[#'center_column']//strong[@innertext>'Your order on My Store is']"
+				itempath=".//strong[@innertext>'Your order on My Store is']"
+				fullname="MyTest1Repository.ApplicationUnderTest.CenterColumn1.YourOrderOnMyStoreIsComplete"
+				id="362485bb3aeb4a04821a92c6111ed4fb"
+				timeout="90000"
+				codefile="c:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\RecordingBuy.cs"
+				codeline="184"
+				itemindex="24"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:36.545"
+			timeRelativeToTestModuleStartTime="00:36.545"
+			timeWallClock="15:45:15"
+			time="00:36.545"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Visible' of element for item 'MyTest1Repository.ApplicationUnderTest.CenterColumn1.YourOrderOnMyStoreIsComplete' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='automationpractice.com']//div[#'center_column']//strong[@innertext>'Your order on My Store is']"
+				itempath=".//strong[@innertext>'Your order on My Store is']"
+				fullname="MyTest1Repository.ApplicationUnderTest.CenterColumn1.YourOrderOnMyStoreIsComplete"
+				id="362485bb3aeb4a04821a92c6111ed4fb"
+				timeout="90000"
+				codefile="c:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\RecordingBuy.cs"
+				codeline="185"
+				loglvl="Success"
+				itemindex="24">
+			</metainfo>
+		</item>
+	</activity>
+</report>

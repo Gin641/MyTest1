@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="24.7s"
+		durationms="24697"
+		type="root"
+		rid="2eabb6c679cad28"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Admin"
+		rxversion="10.2.3.0"
+		host="ADMIN"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="25/8/2022 9:48:04 AM"
+		timestampiso="2022-08-25T02:48:04"
+		endtime="25/8/2022 9:48:29 AM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.786"
+			timeRelativeToTestModuleStartTime="00:04.786"
+			timeWallClock="09:48:09"
+			time="00:04.786"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.LogInToYourCustomerAccount' at 23;20.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='automationpractice.com']//header[#'header']/div[2]//nav/?/?/a[@innertext='Sign in']"
+				itempath=".//header[#'header']/div[2]//nav/?/?/a[@innertext='Sign in']"
+				fullname="MyTest1Repository.ApplicationUnderTest.LogInToYourCustomerAccount"
+				id="0de0a147919e4959807dda2b7800aa85"
+				timeout="60000"
+				codefile="c:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\Recording1.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.086"
+			timeRelativeToTestModuleStartTime="00:08.086"
+			timeWallClock="09:48:12"
+			time="00:08.086"
+			level="Warn"
+			category="Click"
+			errimg="images_Recordin_3b728ad0\Recordin_d0ffd80b_rxlog.jpg"
+			errthumb="images_Recordin_3b728ad0\Recordin_d0ffd80b_rxlog_thumb.jpg">
+			<message>
+				The mouse action was performed outside the boundaries of the assigned UI element.<br/>
+			</message>
+			<metainfo
+				codefile="c:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\Recording1.cs"
+				codeline="83"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.644"
+			timeRelativeToTestModuleStartTime="00:08.644"
+			timeWallClock="09:48:13"
+			time="00:08.644"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest' at 470;621.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='automationpractice.com']"
+				itempath="/dom[@domain='automationpractice.com']"
+				fullname="MyTest1Repository.ApplicationUnderTest.Self"
+				id="ae714fe34f0f421fa829f4f7f77d0242"
+				timeout="30000"
+				codefile="c:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\Recording1.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.293"
+			timeRelativeToTestModuleStartTime="00:09.293"
+			timeWallClock="09:48:14"
+			time="00:09.293"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'abc123' with focus on 'ApplicationUnderTest'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='automationpractice.com']"
+				itempath="/dom[@domain='automationpractice.com']"
+				fullname="MyTest1Repository.ApplicationUnderTest.Self"
+				id="ae714fe34f0f421fa829f4f7f77d0242"
+				timeout="30000"
+				codefile="c:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\Recording1.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.775"
+			timeRelativeToTestModuleStartTime="00:09.775"
+			timeWallClock="09:48:14"
+			time="00:09.775"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.SpanTagCreateAnAccount' at 55;23.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='automationpractice.com']//button[#'SubmitCreate']/span[@innertext>'Create an account']"
+				itempath=".//button[#'SubmitCreate']/span[@innertext>'Create an account']"
+				fullname="MyTest1Repository.ApplicationUnderTest.SpanTagCreateAnAccount"
+				id="3340d3ea9d9b4e45b6f2c801c0ebe71e"
+				timeout="60000"
+				codefile="c:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\Recording1.cs"
+				codeline="95"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:24.697"
+			timeRelativeToTestModuleStartTime="00:24.697"
+			timeWallClock="09:48:29"
+			time="00:24.697"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

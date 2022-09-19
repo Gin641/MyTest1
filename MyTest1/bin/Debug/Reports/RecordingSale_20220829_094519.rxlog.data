@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="10.96s"
+		durationms="10959"
+		type="root"
+		rid="18be8e79fe553d18"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Admin"
+		rxversion="10.2.3.0"
+		host="ADMIN"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="29/8/2022 9:45:22 AM"
+		timestampiso="2022-08-29T02:45:22"
+		endtime="29/8/2022 9:45:33 AM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="RecordingSale">
+		<detail>
+			RecordingSale
+		</detail>
+		<errormessage>
+			Failed to move to location 'Center' within element '{DivTag:product-image-container}'.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.835"
+			timeRelativeToTestModuleStartTime="00:07.835"
+			timeWallClock="09:45:30"
+			time="00:07.835"
+			level="Info"
+			category="Mouse"
+			errimg="images_Recordin_c1b2d85b\Recordin_c1b2d85b_cc4fccbd_trace.jpg"
+			errthumb="images_Recordin_c1b2d85b\Recordin_c1b2d85b_cc4fccbd_trace_thumb.jpg">
+			<message>
+				Mouse Left Move item 'ApplicationUnderTest.ProductSale.Product' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='automationpractice.com']//div[@class='product-image-container'][5]"
+				itempath=".//div[@class='product-image-container'][5]"
+				fullname="MyTest1Repository.ApplicationUnderTest.ProductSale.Product"
+				id="f5db08359adf432d9bd4550e4624ebad"
+				timeout="90000"
+				codefile="c:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\RecordingSale.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.854"
+			timeRelativeToTestModuleStartTime="00:10.854"
+			timeWallClock="09:45:33"
+			time="00:10.854"
+			level="Error"
+			category="Module"
+			errimg="images_Recordin_c1b2d85b\Recordin_c1b2d85b_c05301e5_trace.jpg"
+			errthumb="images_Recordin_c1b2d85b\Recordin_c1b2d85b_c05301e5_trace_thumb.jpg">
+			<message>
+				Failed to move to location 'Center' within element '{DivTag:product-image-container}'.<br/>The pointer cannot be moved to point '{X=250,Y=1172}' since it is outside of the visible desktop.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Mouse.MoveTo(Element element, Location location, Duration moveTime)
+   at Ranorex.Adapter.MoveTo(Location location, Duration moveTime, Boolean showOutOfBoundsWarning)
+   at Ranorex.Adapter.MoveTo()
+   at MyTest1.RecordingSale.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\RecordingSale.cs:line 83
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\RecordingSale.cs"
+				codeline="83"
+				type="repoitem"
+				path="/dom[@domain='automationpractice.com']//div[@class='product-image-container'][5]"
+				itempath=".//div[@class='product-image-container'][5]"
+				fullname="MyTest1Repository.ApplicationUnderTest.ProductSale.Product"
+				id="f5db08359adf432d9bd4550e4624ebad"
+				timeout="90000"
+				loglvl="Error"
+				itemindex="0">
+			</metainfo>
+		</item>
+	</activity>
+</report>

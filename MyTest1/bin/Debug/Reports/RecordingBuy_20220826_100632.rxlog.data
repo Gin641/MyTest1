@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="38.45s"
+		durationms="38450"
+		type="root"
+		rid="321633cd65a1c13"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Admin"
+		rxversion="10.2.3.0"
+		host="ADMIN"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="26/8/2022 10:06:35 AM"
+		timestampiso="2022-08-26T03:06:35"
+		endtime="26/8/2022 10:07:13 AM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="RecordingBuy">
+		<detail>
+			RecordingBuy
+		</detail>
+		<errormessage>
+			Attribute 'Visible' of element for item 'MyTest1Repository.ApplicationUnderTest.ProductSuccessfullyAddedToYourShopp' does not match the specified value (actual='False', expected='True').
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.317"
+			timeRelativeToTestModuleStartTime="00:05.317"
+			timeWallClock="10:06:40"
+			time="00:05.317"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.Homefeatured.Blouse' at 4;2.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='automationpractice.com']//ul[#'homefeatured']/li[2]//a[@title='Blouse']/img[@title='Blouse']"
+				itempath="li[2]//a[@title='Blouse']/img[@title='Blouse']"
+				fullname="MyTest1Repository.ApplicationUnderTest.Homefeatured.Blouse"
+				id="bd96a4dbd2e94355a9cc5eb0e164ded8"
+				timeout="90000"
+				codefile="c:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\RecordingBuy.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:31.352"
+			timeRelativeToTestModuleStartTime="00:31.352"
+			timeWallClock="10:07:06"
+			time="00:31.352"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.AddedExclusive' at 36;25.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='automationpractice.com']//p[#'add_to_cart']/button"
+				itempath=".//p[#'add_to_cart']/button"
+				fullname="MyTest1Repository.ApplicationUnderTest.AddedExclusive"
+				id="d0a4bfeb3ad34f42a2b4d1594a4ad566"
+				timeout="60000"
+				codefile="c:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\RecordingBuy.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:35.099"
+			timeRelativeToTestModuleStartTime="00:35.099"
+			timeWallClock="10:07:10"
+			time="00:35.099"
+			level="Info"
+			category="Validation"
+			errimg="images_Recordin_8a709f54\Recordin_8a709f54_b272170c_trace.jpg"
+			errthumb="images_Recordin_8a709f54\Recordin_8a709f54_b272170c_trace_thumb.jpg">
+			<message>
+				Validating AttributeEqual (Visible='True') on item 'ApplicationUnderTest.ProductSuccessfullyAddedToYourShopp'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='automationpractice.com']//div[#'layer_cart']//h2[@innertext>'Product successfully added']"
+				itempath=".//div[#'layer_cart']//h2[@innertext>'Product successfully added']"
+				fullname="MyTest1Repository.ApplicationUnderTest.ProductSuccessfullyAddedToYourShopp"
+				id="9d6d918ebd7b400984013448ce19e0ad"
+				timeout="60000"
+				codefile="c:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\RecordingBuy.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:38.327"
+			timeRelativeToTestModuleStartTime="00:38.327"
+			timeWallClock="10:07:13"
+			time="00:38.327"
+			level="Failure"
+			category="Validation"
+			errimg="images_Recordin_8a709f54\Recordin_8a709f54_ffbf751a_trace.jpg"
+			errthumb="images_Recordin_8a709f54\Recordin_8a709f54_ffbf751a_trace_thumb.jpg">
+			<message>
+				Attribute 'Visible' of element for item 'MyTest1Repository.ApplicationUnderTest.ProductSuccessfullyAddedToYourShopp' does not match the specified value (actual='False', expected='True').
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='automationpractice.com']//div[#'layer_cart']//h2[@innertext>'Product successfully added']"
+				itempath=".//div[#'layer_cart']//h2[@innertext>'Product successfully added']"
+				fullname="MyTest1Repository.ApplicationUnderTest.ProductSuccessfullyAddedToYourShopp"
+				id="9d6d918ebd7b400984013448ce19e0ad"
+				timeout="60000"
+				codefile="c:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\RecordingBuy.cs"
+				codeline="91"
+				loglvl="Failure"
+				itemindex="2">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:38.333"
+			timeRelativeToTestModuleStartTime="00:38.333"
+			timeWallClock="10:07:13"
+			time="00:38.333"
+			level="Error"
+			category="Module"
+			errimg="images_Recordin_8a709f54\Recordin_8a709f54_ffbf751a_trace.jpg"
+			errthumb="images_Recordin_8a709f54\Recordin_8a709f54_ffbf751a_trace_thumb.jpg">
+			<message>
+				Module execution was aborted because a validation step has failed. Attribute 'Visible' of element for item 'MyTest1Repository.ApplicationUnderTest.ProductSuccessfullyAddedToYourShopp' does not match the specified value (actual='False', expected='True').
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Validate.Execute(AttributeValidation attributeValidation, Func`1 action, Options options, RepoItemInfo itemInfo)
+   at Ranorex.Validate.Execute(IElement element, IMatch match, String message, Options options, RepoItemInfo itemInfo, Func`3 comparisonFunc, String reasonPattern)
+   at Ranorex.Validate.AttributeEqualInternal(IElement element, String name, Object value, String message, Options options, RepoItemInfo itemInfo)
+   at Ranorex.Validate.AttributeEqualInternal(RepoItemInfo itemInfo, String name, Object value, String message, Options options)
+   at Ranorex.Validate.AttributeEqual(RepoItemInfo itemInfo, String name, Object value, String message, Options options)
+   at Ranorex.Validate.AttributeEqual(RepoItemInfo itemInfo, String name, Object value)
+   at MyTest1.RecordingBuy.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\RecordingBuy.cs:line 91
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\RecordingBuy.cs"
+				codeline="91"
+				type="repoitem"
+				path="/dom[@domain='automationpractice.com']//div[#'layer_cart']//h2[@innertext>'Product successfully added']"
+				itempath=".//div[#'layer_cart']//h2[@innertext>'Product successfully added']"
+				fullname="MyTest1Repository.ApplicationUnderTest.ProductSuccessfullyAddedToYourShopp"
+				id="9d6d918ebd7b400984013448ce19e0ad"
+				timeout="60000"
+				loglvl="Error"
+				itemindex="2">
+			</metainfo>
+		</item>
+	</activity>
+</report>

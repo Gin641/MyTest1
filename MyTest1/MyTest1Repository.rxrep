@@ -1,0 +1,1109 @@
+﻿<repository
+id="77826423-55fe-451c-9fcc-e918c1baf6c0"
+name="MyTest1Repository">
+	<codegen
+	classname="MyTest1Repository"
+	namespace="MyTest1">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="368843f6-e25d-43c7-bbef-b201b2a75ff5"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="ae714fe3-4f0f-421f-a829-f4f7f77d0242"
+		isrooted="True"
+		name="ApplicationUnderTest"
+		refimgid="42336087-e926-4caf-874f-03f468fb5321"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="0de0a147-919e-4959-807d-da2b7800aa85"
+			name="LogInToYourCustomerAccount"
+			refimgid="27d2f4ed-fe66-49ca-a812-e83f4af2f16a"
+			refpath="/dom[@domain='automationpractice.com']//header[#'header']/div[2]/div/div/nav/div[1]/a[@innertext='Sign in']"
+			robustPath="/dom[@domain='automationpractice.com']//header[#'header']//a[@innertext='Sign in']"
+			searchtimeout="30000ms">
+				/dom[@domain='automationpractice.com']//header[#'header']/div[2]//nav/?/?/a[@innertext='Sign in']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="3340d3ea-9d9b-4e45-b6f2-c801c0ebe71e"
+			name="SpanTagCreateAnAccount"
+			refimgid="ac645490-229f-468d-99ea-6d53458a8fb2"
+			refpath="/dom[@domain='automationpractice.com']//button[#'SubmitCreate']/span[@innertext>'Create an account']"
+			robustPath="/dom[@domain='automationpractice.com']//button[#'SubmitCreate']/span[@innertext>'Create an account']"
+			searchtimeout="30000ms">
+				/dom[@domain='automationpractice.com']//button[#'SubmitCreate']/span[@innertext&gt;'Create an account']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="9a23ffbe-90c6-43c3-a40c-4319bf3ed8f0"
+			name="CreateAccountError"
+			refimgid="53df7991-63ba-4619-b6b8-995e1f6cc56c"
+			refpath="/dom[@domain='automationpractice.com']//div[#'create_account_error']"
+			robustPath="/dom[@domain='automationpractice.com']//div[#'create_account_error']"
+			searchtimeout="30000ms">
+				/dom[@domain='automationpractice.com']//div[#'create_account_error']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="62e6244c-6589-4f73-a437-bffac5b263fd"
+			name="SearchBlockTop"
+			refimgid="472c24c7-14fd-4223-b6f3-0b0b7114d435"
+			refpath="/dom[@domain='automationpractice.com']//div[#'search_block_top']"
+			robustPath="/dom[@domain='automationpractice.com']//div[#'search_block_top']"
+			searchtimeout="30000ms">
+				/dom[@domain='automationpractice.com']//div[#'search_block_top']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="05171308-b3b4-46ba-b0c6-59035a8751ea"
+			name="EmailCreate"
+			refimgid="26c7e4d2-5415-4cc6-9210-d9e34c46c2cf"
+			refpath="/dom[@domain='automationpractice.com']//input[#'email_create']"
+			robustPath="/dom[@domain='automationpractice.com']//input[#'email_create']"
+			searchtimeout="30000ms">
+				/dom[@domain='automationpractice.com']//input[#'email_create']
+			</item>
+			<item
+			addcaps="unknown,webelement,litag"
+			capname="litag"
+			id="9524cf53-7267-40dd-b018-e2bb6430e151"
+			name="InvalidEmailAddress"
+			refimgid="effffbe5-8894-4ca8-a3ab-318e86fc3e32"
+			refpath="/dom[@domain='automationpractice.com']//div[#'create_account_error']/ol/li[@innertext='Invalid email address.']"
+			robustPath="/dom[@domain='automationpractice.com']//div[#'create_account_error']/?/?/li[@innertext='Invalid email address.']"
+			searchtimeout="30000ms">
+				/dom[@domain='automationpractice.com']//div[#'create_account_error']/?/?/li[@innertext='Invalid email address.']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="4eaefcdd-faa8-4ef1-bc13-aeaf0f67a3ab"
+			name="IdGender"
+			refimgid="92d73fa2-5a78-494f-bd19-f34a3828c5b7"
+			refpath="/dom[@domain='automationpractice.com']//form[#'account-creation_form']/div[1]/div[1]/div[1]/label/div/span/input[@name='id_gender']"
+			robustPath="/dom[@domain='automationpractice.com']//form[#'account-creation_form']//input[@name='id_gender']"
+			searchtimeout="30000ms">
+				/dom[@domain='automationpractice.com']//form[#'account-creation_form']/div[1]/div[1]/?/?/label[@innertext='Mr.']//input[@name='id_gender']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="cef3d0dd-af10-411a-b1d7-fb336118d8da"
+			name="CustomerFirstname"
+			refimgid="28e04be0-f25a-47d8-a845-ac76c1305c35"
+			refpath="/dom[@domain='automationpractice.com']//input[#'customer_firstname']"
+			robustPath="/dom[@domain='automationpractice.com']//input[#'customer_firstname']"
+			searchtimeout="30000ms">
+				/dom[@domain='automationpractice.com']//input[#'customer_firstname']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="c60a5bb1-2bf5-4e24-93a2-ecb5676c890b"
+			name="CustomerLastname"
+			refimgid="13aacbc9-0fa2-4e1d-b89b-1d9f1805de58"
+			refpath="/dom[@domain='automationpractice.com']//input[#'customer_lastname']"
+			robustPath="/dom[@domain='automationpractice.com']//input[#'customer_lastname']"
+			searchtimeout="30000ms">
+				/dom[@domain='automationpractice.com']//input[#'customer_lastname']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="57820c8c-b678-446f-98e2-cf56a9431159"
+			name="Passwd"
+			refimgid="2e8f2bbd-07b1-49c1-9452-44da8516f1d5"
+			refpath="/dom[@domain='automationpractice.com']//input[#'passwd']"
+			robustPath="/dom[@domain='automationpractice.com']//input[#'passwd']"
+			searchtimeout="30000ms">
+				/dom[@domain='automationpractice.com']//input[#'passwd']
+			</item>
+			<item
+			addcaps="unknown,webelement,selecttag"
+			capname="selecttag"
+			id="84c12976-1929-40e9-a05c-9a45889aed69"
+			name="Days"
+			refimgid="a422377a-9f79-49a7-8182-e57970c464ca"
+			refpath="/dom[@domain='automationpractice.com']//select[#'days']"
+			robustPath="/dom[@domain='automationpractice.com']//select[#'days']"
+			searchtimeout="30000ms">
+				/dom[@domain='automationpractice.com']//select[#'days']
+			</item>
+			<item
+			addcaps="unknown,webelement,selecttag"
+			capname="selecttag"
+			id="7bb25c69-bbe1-44f4-8497-fd3a65fbec4d"
+			name="Months"
+			refimgid="248b4043-d040-437a-a321-3c683a67ecbe"
+			refpath="/dom[@domain='automationpractice.com']//select[#'months']"
+			robustPath="/dom[@domain='automationpractice.com']//select[#'months']"
+			searchtimeout="30000ms">
+				/dom[@domain='automationpractice.com']//select[#'months']
+			</item>
+			<item
+			addcaps="unknown,webelement,selecttag"
+			capname="selecttag"
+			id="c86226b1-b787-43be-8730-dff960d8527b"
+			name="Years"
+			refimgid="3c7fda95-2a96-442e-b732-591d35501087"
+			refpath="/dom[@domain='automationpractice.com']//select[#'years']"
+			robustPath="/dom[@domain='automationpractice.com']//select[#'years']"
+			searchtimeout="30000ms">
+				/dom[@domain='automationpractice.com']//select[#'years']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="457162fd-88d9-432a-8431-9aed246eb5d9"
+			name="Company"
+			refimgid="a9e78b6f-7bb1-4acc-8ccd-74c2c79f07d2"
+			refpath="/dom[@domain='automationpractice.com']//input[#'company']"
+			robustPath="/dom[@domain='automationpractice.com']//input[#'company']"
+			searchtimeout="30000ms">
+				/dom[@domain='automationpractice.com']//input[#'company']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="d64bf7ff-4603-40b1-8b21-8c6df5825136"
+			name="Address1"
+			refimgid="cc74409e-94ed-4f1f-a946-6c17b762c4e8"
+			refpath="/dom[@domain='automationpractice.com']//input[#'address1']"
+			robustPath="/dom[@domain='automationpractice.com']//input[#'address1']"
+			searchtimeout="30000ms">
+				/dom[@domain='automationpractice.com']//input[#'address1']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="aeeed228-8499-435e-8c65-c161680dd516"
+			name="City"
+			refimgid="4198c65f-5361-4097-bd19-43985f3d9de8"
+			refpath="/dom[@domain='automationpractice.com']//input[#'city']"
+			robustPath="/dom[@domain='automationpractice.com']//input[#'city']"
+			searchtimeout="30000ms">
+				/dom[@domain='automationpractice.com']//input[#'city']
+			</item>
+			<item
+			addcaps="unknown,webelement,selecttag"
+			capname="selecttag"
+			id="8913186b-2dee-43ea-b976-8ea61c1a3348"
+			name="IdState"
+			refimgid="92b26a2d-64ca-4f08-a264-44114f826a2e"
+			refpath="/dom[@domain='automationpractice.com']//select[#'id_state']"
+			robustPath="/dom[@domain='automationpractice.com']//select[#'id_state']"
+			searchtimeout="30000ms">
+				/dom[@domain='automationpractice.com']//select[#'id_state']
+			</item>
+			<item
+			addcaps="unknown,webelement,selecttag"
+			capname="selecttag"
+			id="a81804b7-abdb-478b-aa1c-e72de3a3eaf8"
+			name="IdCountry"
+			refimgid="1d1fb54e-1cfe-45d7-9217-fbc586a74337"
+			refpath="/dom[@domain='automationpractice.com']//select[#'id_country']"
+			robustPath="/dom[@domain='automationpractice.com']//select[#'id_country']"
+			searchtimeout="30000ms">
+				/dom[@domain='automationpractice.com']//select[#'id_country']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="4baa5a53-46d0-48e9-a747-cff4026b8d73"
+			name="PhoneMobile"
+			refimgid="1f81e291-bd6c-4b12-a91c-61a7cd463093"
+			refpath="/dom[@domain='automationpractice.com']//input[#'phone_mobile']"
+			robustPath="/dom[@domain='automationpractice.com']//input[#'phone_mobile']"
+			searchtimeout="30000ms">
+				/dom[@domain='automationpractice.com']//input[#'phone_mobile']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="f4a67501-5ca7-4267-b4d3-720a6fe2550e"
+			name="Alias"
+			refimgid="8dd8ea6e-ef50-4886-92b9-0a9f4da37fa9"
+			refpath="/dom[@domain='automationpractice.com']//input[#'alias']"
+			robustPath="/dom[@domain='automationpractice.com']//input[#'alias']"
+			searchtimeout="30000ms">
+				/dom[@domain='automationpractice.com']//input[#'alias']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="67301aad-9688-447c-92e7-f3c36745ad08"
+			name="Register"
+			refimgid="1ad5bfb0-9630-4d02-9f7e-dd5c1a284d3a"
+			refpath="/dom[@domain='automationpractice.com']//button[#'submitAccount']/span[@innertext='Register']"
+			robustPath="/dom[@domain='automationpractice.com']//button[#'submitAccount']/span[@innertext='Register']"
+			searchtimeout="30000ms">
+				/dom[@domain='automationpractice.com']//button[#'submitAccount']/span[@innertext='Register']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="d0e106c8-16fb-4278-b7a4-942ab390004c"
+			name="CenterColumn"
+			refimgid="2070bcc8-683c-4cd7-9d6e-4ca5b0436b1d"
+			refpath="/dom[@domain='automationpractice.com']//div[#'center_column']"
+			robustPath="/dom[@domain='automationpractice.com']//div[#'center_column']"
+			searchtimeout="30000ms">
+				/dom[@domain='automationpractice.com']//div[#'center_column']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="b04466dd-4ea7-4785-874e-b3497dcdcdd2"
+			name="Postcode"
+			refimgid="c728baae-e167-473e-98ea-24f061074ff7"
+			refpath="/dom[@domain='automationpractice.com']//input[#'postcode']"
+			robustPath="/dom[@domain='automationpractice.com']//input[#'postcode']"
+			searchtimeout="30000ms">
+				/dom[@domain='automationpractice.com']//input[#'postcode']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="48650f91-bb44-41f5-b39d-083ebd3d1b7c"
+			name="Email"
+			refimgid="058f68e9-06e1-4946-973f-5d70d29c79db"
+			refpath="/dom[@domain='automationpractice.com']//input[#'email']"
+			robustPath="/dom[@domain='automationpractice.com']//input[#'email']"
+			searchtimeout="30000ms">
+				/dom[@domain='automationpractice.com']//input[#'email']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="b5f9521d-d2eb-43fd-a523-ff6d3a7b530f"
+			name="SpanTagSignIn"
+			refimgid="74c353d0-5a39-4872-8e37-b80aab0af478"
+			refpath="/dom[@domain='automationpractice.com']//button[#'SubmitLogin']/span[@innertext='Sign in']"
+			robustPath="/dom[@domain='automationpractice.com']//button[#'SubmitLogin']/span[@innertext='Sign in']"
+			searchtimeout="30000ms">
+				/dom[@domain='automationpractice.com']//button[#'SubmitLogin']/span[@innertext='Sign in']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="5e0e2b71-4ff3-4300-8c02-9f650f9e7295"
+			name="ContactUs"
+			refimgid="a03d756f-0a4a-47e0-97bd-f3882d319b82"
+			refpath="/dom[@domain='automationpractice.com']//div[#'contact-link']/a[@innertext='Contact us']"
+			robustPath="/dom[@domain='automationpractice.com']//div[#'contact-link']/a[@innertext='Contact us']"
+			searchtimeout="30000ms">
+				/dom[@domain='automationpractice.com']//div[#'contact-link']/a[@innertext='Contact us']
+			</item>
+			<item
+			addcaps="unknown,webelement,selecttag"
+			capname="selecttag"
+			id="76c8e35c-381a-4dfc-84fc-4ae88541f2e8"
+			name="IdContact"
+			refimgid="bcd5d2ab-c7ed-4492-b801-e0cbe409c532"
+			refpath="/dom[@domain='automationpractice.com']//select[#'id_contact']"
+			robustPath="/dom[@domain='automationpractice.com']//select[#'id_contact']"
+			searchtimeout="30000ms">
+				/dom[@domain='automationpractice.com']//select[#'id_contact']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="653f7b43-76da-4f57-aa54-f02db0d1bdb2"
+			name="IdOrder"
+			refimgid="53eb4c39-a134-4884-9aee-443b21c463a5"
+			refpath="/dom[@domain='automationpractice.com']//input[#'id_order']"
+			robustPath="/dom[@domain='automationpractice.com']//input[#'id_order']"
+			searchtimeout="30000ms">
+				/dom[@domain='automationpractice.com']//input[#'id_order']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="0aa2270d-9cff-4ad5-8d37-518f027ed46f"
+			name="FileUpload"
+			refimgid="c422fab0-c495-4104-8c53-6584d03822ab"
+			refpath="/dom[@domain='automationpractice.com']//input[#'fileUpload']"
+			robustPath="/dom[@domain='automationpractice.com']//input[#'fileUpload']"
+			searchtimeout="30000ms">
+				/dom[@domain='automationpractice.com']//input[#'fileUpload']
+			</item>
+			<item
+			addcaps="unknown,webelement,textareatag"
+			capname="textareatag"
+			id="3130c4c4-58ee-4087-b88c-c523286cbef3"
+			name="Message"
+			refimgid="a5c006a7-d89f-4675-a0bd-df08d67ed1b2"
+			refpath="/dom[@domain='automationpractice.com']//textarea[#'message']"
+			robustPath="/dom[@domain='automationpractice.com']//textarea[#'message']"
+			searchtimeout="30000ms">
+				/dom[@domain='automationpractice.com']//textarea[#'message']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="e22b8b8a-cba1-4e0b-afef-5868a680dee2"
+			name="Send"
+			refimgid="0b4c2a0e-b0ee-4e3a-b028-8a6ca024a250"
+			refpath="/dom[@domain='automationpractice.com']//button[#'submitMessage']/span[@innertext='Send']"
+			robustPath="/dom[@domain='automationpractice.com']//button[#'submitMessage']/span[@innertext='Send']"
+			searchtimeout="30000ms">
+				/dom[@domain='automationpractice.com']//button[#'submitMessage']/span[@innertext='Send']
+			</item>
+			<item
+			addcaps="unknown,webelement,ptag"
+			capname="ptag"
+			id="8e13549e-15b4-4b94-ae03-a692beabc6ff"
+			name="YourMessageHasBeenSuccessfullySent"
+			refimgid="7e17303c-edff-4372-9317-fa81d0653812"
+			refpath="/dom[@domain='automationpractice.com']//div[#'center_column']/p[@innertext='Your message has been successfully sent to our team.']"
+			robustPath="/dom[@domain='automationpractice.com']//div[#'center_column']/p[@innertext>'Your message has been successfully']"
+			searchtimeout="30000ms">
+				/dom[@domain='automationpractice.com']//div[#'center_column']/p[@innertext&gt;'Your message has been successfully']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="db9860b0-1030-4b03-954a-9c7377a5afc1"
+			name="SearchQueryTop"
+			refimgid="e0668081-ac19-4548-87c9-2f6eca13c0fc"
+			refpath="/dom[@domain='automationpractice.com']//input[#'search_query_top']"
+			robustPath="/dom[@domain='automationpractice.com']//input[#'search_query_top']"
+			searchtimeout="30000ms">
+				/dom[@domain='automationpractice.com']//input[#'search_query_top']
+			</item>
+			<folder
+			capname="unknown"
+			id="f3be747c-8196-4088-b989-20e13b86181b"
+			isrooted="False"
+			name="SearchPage"
+			searchtimeout="0ms">
+				<item
+				capname="litag"
+				id="4d4c4bfe-8084-410e-830b-bb6daeded228"
+				name="SearchSuggestion"
+				robustPath="/dom[@domain='automationpractice.com']/element"
+				searchtimeout="30000ms">
+					/dom[@domain='automationpractice.com']//div[@class='ac_results']//li
+				</item>
+			</folder>
+			<folder
+			capname="ultag"
+			id="d23d61f3-4ca0-482b-9848-d0973f80ec4a"
+			isrooted="True"
+			name="Homefeatured"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="43ff1592-4c98-463c-b5ba-6198b12d12f5"
+				name="AddToCart"
+				refimgid="e9e510dd-85d1-4eae-b6ee-4898579e619d"
+				robustPath="/dom[@domain='automationpractice.com']//ul[#'homefeatured']/li[2]/div/div[2]/div[2]/a[@title='Add to cart']/span[@innertext='Add to cart']"
+				searchtimeout="30000ms">
+					/dom[@domain='automationpractice.com']//ul[#'homefeatured']//li[@class~'hovered']//a[@title='Add to cart']/span[@innertext='Add to cart']
+				</item>
+				<item
+				addcaps="unknown,webelement,imgtag"
+				capname="imgtag"
+				id="bd96a4db-d2e9-4355-a9cc-5eb0e164ded8"
+				name="Blouse"
+				refimgid="7acde759-4237-4147-8456-277dda2a01a9"
+				refpath="/dom[@domain='automationpractice.com']//ul[#'homefeatured']/li[2]/div/div[1]/div/a[@title='Blouse']/img[@title='Blouse']"
+				robustPath="/dom[@domain='automationpractice.com']//ul[#'homefeatured']//img[@title='Blouse']"
+				searchtimeout="30000ms">
+					/dom[@domain='automationpractice.com']//ul[#'homefeatured']/li[2]//a[@title='Blouse']/img[@title='Blouse']
+				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="5a30e6a2-ea51-4af2-81d2-c3e6b7d5ccd7"
+				name="AddToCart1"
+				refimgid="64e420c9-9494-4e71-ae6d-a058a6965813"
+				refpath="/dom[@domain='automationpractice.com']//ul[#'homefeatured']/li[3]/div/div[2]/div[2]/a[@title='Add to cart']/span[@innertext='Add to cart']"
+				robustPath="/dom[@domain='automationpractice.com']//ul[#'homefeatured']/li[3]/div/div[2]/div[2]/a[@title='Add to cart']/span[@innertext='Add to cart']"
+				searchtimeout="30000ms">
+					/dom[@domain='automationpractice.com']//ul[#'homefeatured']/li[3]//a[@title='Add to cart']/span[@innertext='Add to cart']
+				</item>
+				<item
+				addcaps="unknown,webelement,atag"
+				capname="atag"
+				id="ea2ea27e-3fb6-4ef1-8c2d-86443bf6f5db"
+				name="HttpAutomationpracticeComIndexPhpi"
+				refimgid="7b5e5364-ede2-4ee9-bd6e-77fd72eea23a"
+				refpath="/dom[@domain='automationpractice.com']//ul[#'homefeatured']/li[2]/div/div[1]/div/a[2]"
+				robustPath="/dom[@domain='automationpractice.com']//ul[#'homefeatured']/li[2]/div/div[1]/div/a[2]"
+				searchtimeout="30000ms">
+					/dom[@domain='automationpractice.com']//ul[#'homefeatured']/li[2]/div/div[1]/div/a[2]
+				</item>
+				<item
+				addcaps="unknown,webelement,atag"
+				capname="atag"
+				id="466c65f6-7fe0-45e8-a423-8970d05d861f"
+				name="HttpAutomationpracticeComIndexPhpi1"
+				refimgid="6cf4cb58-4743-405a-8c24-c97b61ce35ce"
+				refpath="/dom[@domain='automationpractice.com']//ul[#'homefeatured']/li[3]/div/div[1]/div/a[2]"
+				robustPath="/dom[@domain='automationpractice.com']//ul[#'homefeatured']/li[3]/div/div[1]/div/a[2]"
+				searchtimeout="30000ms">
+					/dom[@domain='automationpractice.com']//ul[#'homefeatured']/li[3]/div/div[1]/div/a[2]
+				</item>
+				<basepath>
+					/dom[@domain='automationpractice.com']//ul[#'homefeatured']
+				</basepath>
+			</folder>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="9b7e67ff-a13a-4de2-8b9a-41506a24dc07"
+			name="SpanTagProceedToCheckout"
+			refimgid="2dd0210e-1bfb-43dc-896c-eb34f2071acf"
+			robustPath="/dom[@domain='automationpractice.com']//div[#'layer_cart']//span[@innertext>'Proceed to checko']"
+			searchtimeout="30000ms">
+				/dom[@domain='automationpractice.com']//div[@id='layer_cart' and @style~'display: block']//a[@title='Proceed to checkout']/span[@innertext&gt;'Proceed to checko']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="726b73e2-f8ab-4fe2-90e5-a69f1e9317df"
+			name="SpanTagProceedToCheckout1"
+			refimgid="36e2c7e5-08fb-430d-a1ad-3964f8ba694f"
+			refpath="/dom[@domain='automationpractice.com']//form[#'form']/p/button/span[@innertext>'Proceed to checkout']"
+			robustPath="/dom[@domain='automationpractice.com']//form[#'form']//span[@innertext>'Proceed to checkout']"
+			searchtimeout="30000ms">
+				/dom[@domain='automationpractice.com']//form[#'form']//span[@innertext&gt;'Proceed to checkout']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="dc06adba-3f1b-4663-8d97-f31c9d3cb2a6"
+			name="IConfirmMyOrder"
+			refimgid="be7230fe-f412-40c8-9203-5fc2a9f80ed9"
+			refpath="/dom[@domain='automationpractice.com']//p[#'cart_navigation']/button/span[@innertext='I confirm my order']"
+			robustPath="/dom[@domain='automationpractice.com']//p[#'cart_navigation']/?/?/span[@innertext='I confirm my order']"
+			searchtimeout="30000ms">
+				/dom[@domain='automationpractice.com']//p[#'cart_navigation']/?/?/span[@innertext='I confirm my order']
+			</item>
+			<folder
+			capname="divtag"
+			id="1b2b4ce2-1315-4ce0-9ed8-cf2d20a3517f"
+			isrooted="True"
+			name="CenterColumn1"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="unknown,webelement,strongtag"
+				capname="strongtag"
+				id="362485bb-3aeb-4a04-821a-92c6111ed4fb"
+				name="YourOrderOnMyStoreIsComplete"
+				refimgid="4bd6b0d1-52b2-4cda-b245-b5025d8b0766"
+				refpath="/dom[@domain='automationpractice.com']//div[#'center_column']/div[@innertext>'Please send us a bank wire with- Amount - Name of account owner  - Include these details  - Bank name  - Do not forget to insert your order reference COVXWCBLB in the subject of your bank wire.An email has been sent with this information.If you have']/p/strong[@innertext='Your order on My Store is complete.']"
+				robustPath="/dom[@domain='automationpractice.com']//div[#'center_column']//strong[@innertext>'Your order on My Store is']"
+				searchtimeout="30000ms">
+					/dom[@domain='automationpractice.com']//div[#'center_column']//strong[@innertext&gt;'Your order on My Store is']
+				</item>
+				<item
+				addcaps="unknown,webelement,atag"
+				capname="atag"
+				id="3e1a645f-8e25-47c2-9bfe-1d2eb4d570e0"
+				name="PayByBankWire"
+				refimgid="e26cae10-2353-417d-9475-9cbdb8311ed9"
+				refpath="/dom[@domain='automationpractice.com']//div[#'center_column']/div/div[3]/div[1]/div/p/a[@innertext>'            Pay by bank']"
+				robustPath="/dom[@domain='automationpractice.com']//div[#'center_column']//a[@innertext>'            Pay by bank']"
+				searchtimeout="30000ms">
+					/dom[@domain='automationpractice.com']//div[#'center_column']/div/div[3]//a[@innertext&gt;'            Pay by bank']
+				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="01ebf40a-fcc1-4fc5-9eaa-083325f80c31"
+				name="ProceedToCheckout"
+				refimgid="addf3e4d-17bf-45e0-bf6a-e70b4cc87c58"
+				refpath="/dom[@domain='automationpractice.com']//div[#'center_column']/form/p/button/span[@innertext='Proceed to checkout']"
+				robustPath="/dom[@domain='automationpractice.com']//div[#'center_column']//span[@innertext='Proceed to checkout']"
+				searchtimeout="30000ms">
+					/dom[@domain='automationpractice.com']//div[#'center_column']/form[@action='http://automationpractice.com/index.php?controller=order']//span[@innertext='Proceed to checkout']
+				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="2bcd9ebf-eb4e-43f5-aa20-49f7cea5cf33"
+				name="ProceedToCheckout1"
+				refimgid="c4e1d527-b20b-4244-bd1b-f7c1a208fbbc"
+				refpath="/dom[@domain='automationpractice.com']//div[#'center_column']/p[2]/a[@title='Proceed to checkout']/span[@innertext='Proceed to checkout']"
+				robustPath="/dom[@domain='automationpractice.com']//div[#'center_column']//span[@innertext='Proceed to checkout']"
+				searchtimeout="30000ms">
+					/dom[@domain='automationpractice.com']//div[#'center_column']//span[@innertext='Proceed to checkout']
+				</item>
+				<basepath>
+					/dom[@domain='automationpractice.com']//div[#'center_column']
+				</basepath>
+			</folder>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="68653a4f-30c6-44bd-9a92-68ad0073ad69"
+			name="AddToCart"
+			refimgid="69d997b6-7234-4f1f-8270-a82e512c51aa"
+			refpath="/dom[@domain='automationpractice.com']//body[#'index']/div[2]/div/div/div/div/iframe//p[#'add_to_cart']/button/span[@innertext='Add to cart']"
+			robustPath="/dom[@domain='automationpractice.com']//body[#'index']//iframe[@name='fancybox-frame1661482783985']//p[#'add_to_cart']/?/?/span[@innertext='Add to cart']"
+			searchtimeout="30000ms">
+				/dom[@domain='automationpractice.com']//body[#'index']//iframe[@name='fancybox-frame1661482783985']//p[#'add_to_cart']/button/span[@innertext='Add to cart']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="83f8f252-a93c-4a5f-9588-f9a420001e11"
+			name="AddToCart1"
+			refimgid="5e0e5528-ee75-4db4-a638-4b6e83d6f267"
+			refpath="/dom[@domain='automationpractice.com']//body[#'index']/div[2]/div/div/div/div/iframe//p[#'add_to_cart']/button/span[@innertext='Add to cart']"
+			robustPath="/dom[@domain='automationpractice.com']//body[#'index']//iframe[@name='fancybox-frame1661482800964']//p[#'add_to_cart']/?/?/span[@innertext='Add to cart']"
+			searchtimeout="30000ms">
+				/dom[@domain='automationpractice.com']//body[#'index']//iframe[@name='fancybox-frame1661482800964']//p[#'add_to_cart']/button/span[@innertext='Add to cart']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="0d55d417-a63a-4c51-9f9a-11a25d99f87b"
+			name="AddToCart2"
+			refimgid="507d1dda-b050-4fa4-92ae-170f2ff79bde"
+			refpath="/dom[@domain='automationpractice.com']//p[#'add_to_cart']/button/span[@innertext='Add to cart']"
+			robustPath="/dom[@domain='automationpractice.com']//p[#'add_to_cart']/?/?/span[@innertext='Add to cart']"
+			searchtimeout="30000ms">
+				/dom[@domain='automationpractice.com']//p[#'add_to_cart']/?/?/span[@innertext='Add to cart']
+			</item>
+			<item
+			addcaps="button,webelement,buttontag"
+			capname="buttontag"
+			id="d0a4bfeb-3ad3-4f42-a2b4-d1594a4ad566"
+			name="AddedExclusive"
+			refimgid="62e25260-f7b0-44b7-ad8c-1c0b7b0c6af6"
+			refpath="/dom[@domain='automationpractice.com']//p[#'add_to_cart']/button"
+			robustPath="/dom[@domain='automationpractice.com']//p[#'add_to_cart']/button"
+			searchtimeout="30000ms">
+				/dom[@domain='automationpractice.com']//p[#'add_to_cart']/button
+			</item>
+			<item
+			addcaps="unknown,webelement,h2tag"
+			capname="h2tag"
+			id="9d6d918e-bd7b-4009-8401-3448ce19e0ad"
+			name="ProductSuccessfullyAddedToYourShopp"
+			refimgid="fdf2e9f2-ef7d-4b7f-9bd0-20a1476520cf"
+			refpath="/dom[@domain='automationpractice.com']//div[#'layer_cart']/div[1]/div[1]/h2[@innertext='Product successfully added to your shopping cart']"
+			robustPath="/dom[@domain='automationpractice.com']//div[#'layer_cart']//h2[@innertext>'Product successfully added']"
+			searchtimeout="30000ms">
+				/dom[@domain='automationpractice.com']//div[#'layer_cart']//h2[@innertext&gt;'Product successfully added']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="5c91c159-b2a4-438c-9b5b-02036b8373ac"
+			name="ContinueShopping"
+			refimgid="6783ec9e-ee60-4495-b5e1-0e885be1f258"
+			robustPath="/dom[@domain='automationpractice.com']//div[#'layer_cart']//span[@innertext='Continue shopping']"
+			searchtimeout="30000ms">
+				/dom[@domain='automationpractice.com']//div[@id='layer_cart' and @style~'display: block']//span[@title='Continue shopping']/span[@innertext='Continue shopping']
+			</item>
+			<item
+			addcaps="unknown,webelement,imgtag"
+			capname="imgtag"
+			id="43dd193a-d7ed-44d3-8155-57a3d113b158"
+			name="MyStore"
+			refimgid="89f0a6c4-8b51-4f8a-8527-8885c797ab05"
+			refpath="/dom[@domain='automationpractice.com']//div[#'header_logo']/a/img[@alt='My Store']"
+			robustPath="/dom[@domain='automationpractice.com']//div[#'header_logo']/?/?/img[@alt='My Store']"
+			searchtimeout="30000ms">
+				/dom[@domain='automationpractice.com']//div[#'header_logo']/?/?/img[@alt='My Store']
+			</item>
+			<folder
+			capname="webdocument"
+			id="35d8459d-d3ee-4630-b5d5-64c74daef47d"
+			isrooted="True"
+			name="Products"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				capname="divtag"
+				id="16027fc2-5d4d-4c35-b461-d16859fa6560"
+				name="product"
+				refimgid="fdc11bb0-b6ea-46dd-aa65-8554b2940f5f"
+				robustPath="/dom[@domain='automationpractice.com']/element"
+				searchtimeout="30000ms">
+					/dom[@domain='automationpractice.com']//div[@class='product-image-container'][2]
+				</item>
+				<item
+				capname="divtag"
+				id="8aec4855-074b-425c-8d2b-5cfb49d92ba2"
+				name="product2"
+				refimgid="06c67f54-8c81-43b0-9316-6e76be47f80a"
+				robustPath="/dom[@domain='automationpractice.com']/element"
+				searchtimeout="30000ms">
+					/dom[@domain='automationpractice.com']//div[@class='product-image-container'][3]
+				</item>
+				<item
+				addcaps="container,webdocument"
+				capname="webdocument"
+				id="8e0ac58a-b17d-4984-84cb-e28dc3b62956"
+				name="OrderMyStore"
+				refimgid="f95ac48c-7f63-4021-861c-ee10ba8e660f"
+				refpath="/dom[@domain='automationpractice.com']"
+				robustPath="/dom[@domain='automationpractice.com']"
+				searchtimeout="30000ms">
+					/dom[@domain='automationpractice.com']
+				</item>
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="96461644-b984-4031-a2aa-5ca21aff1454"
+				name="InputTagCgv"
+				refimgid="aa9c4b8f-ae4a-4584-945a-e76c3a6bc25d"
+				refpath="/dom[@domain='automationpractice.com']//input[#'cgv']"
+				robustPath="/dom[@domain='automationpractice.com']//input[#'cgv']"
+				searchtimeout="30000ms">
+					/dom[@domain='automationpractice.com']//input[#'cgv']
+				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="15ad5318-3510-46f3-a399-7569318a724b"
+				name="SpanTagCheckOut"
+				refimgid="af47a60f-d55f-49e9-93ca-f810ff7ba172"
+				refpath="/dom[@domain='automationpractice.com']//a[#'button_order_cart']/span[@innertext='Check out']"
+				robustPath="/dom[@domain='automationpractice.com']//a[#'button_order_cart']/span[@innertext='Check out']"
+				searchtimeout="30000ms">
+					/dom[@domain='automationpractice.com']//a[#'button_order_cart']/span[@innertext='Check out']
+				</item>
+				<item
+				addcaps="unknown,webelement,divtag"
+				capname="divtag"
+				id="22eb9347-5cf3-46a1-908c-9218591a49e4"
+				name="HeaderLogo"
+				refimgid="3f8431a4-79a9-40f8-a2d5-c4b04eda3e27"
+				refpath="/dom[@domain='automationpractice.com']//div[#'header_logo']"
+				robustPath="/dom[@domain='automationpractice.com']//div[#'header_logo']"
+				searchtimeout="30000ms">
+					/dom[@domain='automationpractice.com']//div[#'header_logo']
+				</item>
+				<item
+				capname="spantag"
+				id="b2563726-f390-4ebf-8042-fa20d6ccabbb"
+				name="TotalProduct"
+				refimgid="2f97846c-0df4-4dec-b125-096b9b1e9df0"
+				robustPath="/dom[@domain='automationpractice.com']/element"
+				searchtimeout="30000ms">
+					/dom[@domain='automationpractice.com']//div[@class='shopping_cart']//span[@class~'ajax_cart_quantity']
+				</item>
+				<item
+				capname="spantag"
+				id="c23fd223-c6ab-4603-988b-844af252d887"
+				name="Products"
+				robustPath="/dom[@domain='automationpractice.com']/element"
+				searchtimeout="30000ms">
+					/dom[@domain='automationpractice.com']//div[@class='cart_block block exclusive' and @style~'display: block']//dt//span[@class='quantity']
+				</item>
+				<item
+				capname="tdtag"
+				id="5b8640b5-311b-4e6a-a2a3-ec95fdbad983"
+				name="TotalProducts"
+				refimgid="b6ba021a-2993-4a3b-8528-7cf8ac6c137c"
+				robustPath="/dom[@domain='automationpractice.com']/element"
+				searchtimeout="30000ms">
+					/dom[@domain='automationpractice.com']//tr[@class='cart_total_price'][1]//td[@class='price']
+				</item>
+				<item
+				capname="tdtag"
+				id="904d15f9-153b-475d-b3df-bc3e0831eacd"
+				name="TotalShipping"
+				refimgid="1c938199-47b0-4cd9-9538-3eb43920159e"
+				robustPath="/dom[@domain='automationpractice.com']/element"
+				searchtimeout="30000ms">
+					/dom[@domain='automationpractice.com']//tr[@class='cart_total_delivery']//td[@class~'price']
+				</item>
+				<item
+				capname="tdtag"
+				id="c595b48b-559d-4389-a195-bedf0140a611"
+				name="Tax"
+				robustPath="/dom[@domain='automationpractice.com']/element"
+				searchtimeout="30000ms">
+					/dom[@domain='automationpractice.com']//tr[@class='cart_total_tax']//td[@class~'price']
+				</item>
+				<item
+				capname="spantag"
+				id="ed5f64a4-d879-4499-9423-37fcb6070c66"
+				name="Total"
+				robustPath="/dom[@domain='automationpractice.com']/element"
+				searchtimeout="30000ms">
+					/dom[@domain='automationpractice.com']//tr[@class='cart_total_price'][3]//td[@class='price']//span
+				</item>
+				<item
+				addcaps="unknown,webelement,divtag"
+				capname="divtag"
+				id="147746b7-c2e6-4ff4-bd20-f376c203c241"
+				name="ColumnsContainer"
+				refimgid="0288ffd6-904c-425c-9768-798aae51bf83"
+				refpath="/dom[@domain='automationpractice.com']//div[#'page']/div[2]"
+				robustPath="/dom[@domain='automationpractice.com']//div[#'page']/div[2]"
+				searchtimeout="30000ms">
+					/dom[@domain='automationpractice.com']//div[#'page']/div[2]
+				</item>
+				<basepath>
+					/dom[@domain='automationpractice.com']
+				</basepath>
+			</folder>
+			<item
+			capname="divtag"
+			id="c47db11a-ddb6-4bfd-90b9-24e4f79a46c5"
+			name="Cart"
+			refimgid="5ef0b65b-95b9-4804-99c2-0bfe3c496e0e"
+			robustPath="/dom[@domain='automationpractice.com']/element"
+			searchtimeout="30000ms">
+				/dom[@domain='automationpractice.com']//div[@class='shopping_cart']
+			</item>
+			<folder
+			capname="webdocument"
+			id="cb73ca24-5c5d-41af-ba48-c6cead187590"
+			isrooted="True"
+			name="ProductSale"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				capname="divtag"
+				id="f5db0835-9adf-432d-9bd4-550e4624ebad"
+				name="Product"
+				refimgid="0bcc34cf-aa58-4b05-972c-9b9b666af159"
+				robustPath="/dom[@domain='automationpractice.com']/element"
+				searchtimeout="30000ms">
+					/dom[@domain='automationpractice.com']//div[@class='product-image-container'][5]
+				</item>
+				<item
+				capname="divtag"
+				id="b390f336-215d-4e46-930c-f5bfd9c09487"
+				name="Product1"
+				refimgid="b9bdc88e-c6c9-4e51-85ad-3683dbc2b4fe"
+				robustPath="/dom[@domain='automationpractice.com']/element"
+				searchtimeout="30000ms">
+					/dom[@domain='automationpractice.com']//div[@class='product-image-container'][7]
+				</item>
+				<basepath>
+					/dom[@domain='automationpractice.com']
+				</basepath>
+			</folder>
+			<basepath>
+				/dom[@domain='automationpractice.com']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="menubar,nativewindow"
+		capname="menubar"
+		id="8a7b4e9b-23a3-4d09-ba5d-9bf8c597e4c5"
+		isrooted="True"
+		name="Explorer"
+		refimgid="360d5b77-1e59-4da0-b5c3-1a99c5939e70"
+		refpath="/menubar[@processname='explorer']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="5a0fb541-c017-4abb-8edf-fe340b975352"
+			name="GoogleChrome1RunningWindow"
+			refimgid="bb1b477f-c8df-4db9-b18c-5c717e9d2dfd"
+			refpath="/menubar[@processname='explorer']/container[@automationid='40965']/container/element/toolbar/button[5]"
+			robustPath="/menubar[@processname='explorer']//toolbar[@accessiblename='Running applications']/button[5]"
+			searchtimeout="30000ms">
+				/menubar[@processname='explorer']/container[@automationid='40965']//toolbar[@accessiblename='Running applications']/button[5]
+			</item>
+			<basepath>
+				/menubar[@processname='explorer']
+			</basepath>
+			<icon>
+				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
+VZB4/J8BADyZI3kwAy98AAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="428fd576-c66d-44b5-90cd-14190fcd3ed0"
+		isrooted="True"
+		name="TaskSwitching"
+		refimgid="11c6ab58-c203-4617-8d36-e16129d9955a"
+		refpath="/form[@title='Task Switching']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<basepath>
+				/form[@title='Task Switching']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAADSSURBVDhPpdK/DsFQGAXw8wg2L9KI9AHEZmhi
+MBgMBoN4AINNIhaCiXbwFCYjg5T4UyGqxCN4gEOjt7lDew33JL/lO9/XuxTaeThgIhvLwEEmWktP
+YINp7lNs/37kPAKT+E6Wb7dF3jvpXkN+N9tMdW2Sl4bS97k6dYBejTrAU5U6wGOFQm+xoTV/KoU7
+8g14KFMozAKaE18p3JFvwL1FIekgiXwD7koUzPEtJs9VHegWKeQHXkyeqzpwbVDI9d2YPFd10Q/9
+i9FdUYhGcVSdRoAPUdlLBd+8Ak0AAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow,excelapplication"
+		capname="form"
+		id="7900c327-5df5-40d9-9521-d849fa5cce2f"
+		isrooted="True"
+		name="LQARanoreXTrainingCourseXlsxExc"
+		refimgid="4e497e64-83de-4231-afa2-9250a6b75872"
+		refpath="/form[@processname='EXCEL']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<basepath>
+				/form[@processname='EXCEL']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAD4SURBVDhPY0AGiovT3gPxf2zY+EgjNvweqhUC
+sGmEYSyawRiqFQKwaYRhbJpBmEGg2vG9QI3jf3xYsM4Zq2YQZsCmARsWDDPD6jK4AZVbp/wHgay1
+Hf9tp6aC2R37FiAMCTTGbwAIP3z/HIwP37sAppHliDLAZ24h2GYQALGR5YgyIHppDVT7fzAbWY7D
+TgGFD8NwA+RbfOHOh3kBJAaTJ2jAtGNrwDbr9UTCvYIciAQNAIU8COPi4zaAiIQkUG7/n0dP+r9E
+jDkGhiZiCOB1Uv2PDYM0C7lqEjZANNDgPzYsHmmKVTMIQ7VCgHi0+XtsinBh8Wjz9wCUDun8tlsj
+LwAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="eeef39e4-19b9-4c15-8465-6e5635604f1e"
+		isrooted="True"
+		name="LoginMyStoreGoogleChrome"
+		refimgid="93c1cc9c-8ba4-4a0f-ac18-b3e434c0bae3"
+		refpath="/form[@title>'Login - My Store - Google']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<basepath>
+				/form[@title&gt;'Login - My Store - Google']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAJxSURBVDhPrdJbSBRhGAbg/6rAAhcKkjDdNbY8
+tM6saxelzo5b2cEOeF8sIdFFiF6EF1mtSBIJJpuh5aEVO4MUdLiqdT0LWcxNWRC5kae1cmc9BLoz
+O2/fbANieOkHD+/AfO8wM/xs3Sfo5Ew/XbmeGZcjOOPKhS7kckgh0eGbdnJmY23tmRH3ukOFDplg
+WtTlaFTElNOuTQp2bVqwh0MCX26srx79Bi3qy5gS7JgUeEJZwGOigNMm8vUk+Rwm8mxuo/ZvON8p
+85eDOTIt0CKHcfKrrBQRbx3mWuoQuVGMSI0d4Wpek0mklpchcSajzpj9YUlHXYWIH3nZcZG2JgQ+
+R3HxyR+c9y3ipRRFbPwO1GEeyjBHySE6lO0x6oxld56U8tpO4F0RvWJJkfZCWobjaoTIcTmkezQK
+9aObyllQhzJJxphRZ8zWcVwjOOdxYbb+OkrbF8BfCRPZyDAqHi0iNlYLZXAXlAGrpgxaYdQZy7pX
+jKz2Yzot8LgB5Q8WsKdqFraqMGyXCeXZtnnEvtVAHUgjFqj9lpUHZLQeDWa0HgEl3K8q4R9dRual
+WcPveD7/sAR1ZB8Vd8QpfcmSUWcsvaXIk373MHS7SeNIJ569X8KZ1jlc6JzH20/LGP/qhdKbZNiG
+WF+Sz6gzltrgNFmbDskE1mZCKd4/jWv9TXGVr8vw/c12KD1b46I9W2QEElefyrRG0b3z9gGNQJfW
+6NJ0+nV7F/24gMmQCLXHtPZpTPU6Kyy3CmWzV4TFWwg985v3Q+neDMW/SYv6E2S1O2H1Kfx/6HPM
+KTcFH5FS6gXtaVcylTcEFf/GanrtldO3PsPYX4Eyph82ru1CAAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="363424d3-b5f4-436a-bd51-c7841b518e39"
+		isrooted="True"
+		name="Open"
+		refpath="/form[@title='Open']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="picture,uiautomation,uiautomationvalue"
+			capname="picture"
+			id="42173e5a-d6b0-49a1-b634-8c2218660e19"
+			name="BaselineImage"
+			refimgid="72bcb476-d17e-4dcf-b312-c67f01f60741"
+			refpath="/form[@title='Open']/element[@controlname='' and @class='DUIViewWndClassName']/container/element[@controlname='' and @class='CtrlNotifySink' and @instance='1']/container/container/listitem[@automationid='3']/picture[@automationid='BaselineImage']"
+			robustPath="/form[@title='Open']//listitem[@automationid='3']/picture[@automationid='BaselineImage']"
+			searchtimeout="30000ms">
+				/form[@title='Open']/element[@class='DUIViewWndClassName']//container[@caption='ShellView']/?/?/listitem[@automationid='3']/picture[@automationid='BaselineImage']
+			</item>
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="47b0a64d-4408-490a-b130-086964cea1a0"
+			name="ButtonOpen"
+			refimgid="046932b3-49d8-402b-8ad8-780ebc6743bd"
+			refpath="/form[@title='Open']/button[@text='&amp;Open']"
+			robustPath="/form[@title='Open']/button[@text='&amp;Open']"
+			searchtimeout="30000ms">
+				/form[@title='Open']/button[@text='&amp;Open']
+			</item>
+			<basepath>
+				/form[@title='Open']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAJxSURBVDhPrdJbSBRhGAbg/6rAAhcKkjDdNbY8
+tM6saxelzo5b2cEOeF8sIdFFiF6EF1mtSBIJJpuh5aEVO4MUdLiqdT0LWcxNWRC5kae1cmc9BLoz
+O2/fbANieOkHD+/AfO8wM/xs3Sfo5Ew/XbmeGZcjOOPKhS7kckgh0eGbdnJmY23tmRH3ukOFDplg
+WtTlaFTElNOuTQp2bVqwh0MCX26srx79Bi3qy5gS7JgUeEJZwGOigNMm8vUk+Rwm8mxuo/ZvON8p
+85eDOTIt0CKHcfKrrBQRbx3mWuoQuVGMSI0d4Wpek0mklpchcSajzpj9YUlHXYWIH3nZcZG2JgQ+
+R3HxyR+c9y3ipRRFbPwO1GEeyjBHySE6lO0x6oxld56U8tpO4F0RvWJJkfZCWobjaoTIcTmkezQK
+9aObyllQhzJJxphRZ8zWcVwjOOdxYbb+OkrbF8BfCRPZyDAqHi0iNlYLZXAXlAGrpgxaYdQZy7pX
+jKz2Yzot8LgB5Q8WsKdqFraqMGyXCeXZtnnEvtVAHUgjFqj9lpUHZLQeDWa0HgEl3K8q4R9dRual
+WcPveD7/sAR1ZB8Vd8QpfcmSUWcsvaXIk373MHS7SeNIJ569X8KZ1jlc6JzH20/LGP/qhdKbZNiG
+WF+Sz6gzltrgNFmbDskE1mZCKd4/jWv9TXGVr8vw/c12KD1b46I9W2QEElefyrRG0b3z9gGNQJfW
+6NJ0+nV7F/24gMmQCLXHtPZpTPU6Kyy3CmWzV4TFWwg985v3Q+neDMW/SYv6E2S1O2H1Kfx/6HPM
+KTcFH5FS6gXtaVcylTcEFf/GanrtldO3PsPYX4Eyph82ru1CAAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="c4daf82e-beb4-40e2-8655-e24f7495a074"
+		isrooted="True"
+		name="ContactUsMyStoreGoogleChrome"
+		refimgid="49c67b71-2d45-42ad-8875-4d04007e859c"
+		refpath="/form[@title>'Contact us - My Store - Google']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<basepath>
+				/form[@title&gt;'Contact us - My Store - Google']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAJxSURBVDhPrdJbSBRhGAbg/6rAAhcKkjDdNbY8
+tM6saxelzo5b2cEOeF8sIdFFiF6EF1mtSBIJJpuh5aEVO4MUdLiqdT0LWcxNWRC5kae1cmc9BLoz
+O2/fbANieOkHD+/AfO8wM/xs3Sfo5Ew/XbmeGZcjOOPKhS7kckgh0eGbdnJmY23tmRH3ukOFDplg
+WtTlaFTElNOuTQp2bVqwh0MCX26srx79Bi3qy5gS7JgUeEJZwGOigNMm8vUk+Rwm8mxuo/ZvON8p
+85eDOTIt0CKHcfKrrBQRbx3mWuoQuVGMSI0d4Wpek0mklpchcSajzpj9YUlHXYWIH3nZcZG2JgQ+
+R3HxyR+c9y3ipRRFbPwO1GEeyjBHySE6lO0x6oxld56U8tpO4F0RvWJJkfZCWobjaoTIcTmkezQK
+9aObyllQhzJJxphRZ8zWcVwjOOdxYbb+OkrbF8BfCRPZyDAqHi0iNlYLZXAXlAGrpgxaYdQZy7pX
+jKz2Yzot8LgB5Q8WsKdqFraqMGyXCeXZtnnEvtVAHUgjFqj9lpUHZLQeDWa0HgEl3K8q4R9dRual
+WcPveD7/sAR1ZB8Vd8QpfcmSUWcsvaXIk373MHS7SeNIJ569X8KZ1jlc6JzH20/LGP/qhdKbZNiG
+WF+Sz6gzltrgNFmbDskE1mZCKd4/jWv9TXGVr8vw/c12KD1b46I9W2QEElefyrRG0b3z9gGNQJfW
+6NJ0+nV7F/24gMmQCLXHtPZpTPU6Kyy3CmWzV4TFWwg985v3Q+neDMW/SYv6E2S1O2H1Kfx/6HPM
+KTcFH5FS6gXtaVcylTcEFf/GanrtldO3PsPYX4Eyph82ru1CAAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="c87f9c65-c524-4b79-9d60-1359a5b65352"
+		isrooted="True"
+		name="ThẻMớiGoogleChrome"
+		refpath="/form[@title='Thẻ mới - Google Chrome']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="3328ee4c-9f1f-4730-9d30-c4ec27863cff"
+			name="ThanhĐịaChỉVaTimKiếm"
+			refimgid="af253cb9-1d58-43d6-9238-9aeaade31e2b"
+			refpath="/form[@title='Thẻ mới - Google Chrome']/container/container/container/container[2]/container[1]/toolbar[1]/container[@accessiblerole='Grouping']/text[@accessiblename='Thanh địa chỉ và tìm kiếm']"
+			robustPath="/form[@title='Thẻ mới - Google Chrome']//text[@accessiblename='Thanh địa chỉ và tìm kiếm']"
+			searchtimeout="30000ms">
+				/form[@title='Thẻ mới - Google Chrome']/container[@accessiblename='Thẻ mới - Google Chrome']/container[@accessiblename='Google Chrome']/container/container[2]/container[1]/toolbar[1]/?/?/text[@accessiblename='Thanh địa chỉ và tìm kiếm']
+			</item>
+			<item
+			addcaps="tabpage,accessible"
+			capname="tabpage"
+			id="ec2e04da-f01a-47ae-af29-96f5226217d6"
+			name="ThẻMới"
+			refimgid="003e0b52-e75a-400d-86ff-2e31ddb8d679"
+			refpath="/form[@title='Thẻ mới - Google Chrome']/container/container/container/container[2]/container[1]/tabpagelist/container[1]/container/tabpage[@accessiblename='Thẻ mới']"
+			robustPath="/form[@title='Thẻ mới - Google Chrome']//tabpage[@accessiblename='Thẻ mới']"
+			searchtimeout="30000ms">
+				/form[@title='Thẻ mới - Google Chrome']/container[@accessiblename='Thẻ mới - Google Chrome']/container[@accessiblename='Google Chrome']/container/container[2]/container[1]/tabpagelist[@accessiblerole='PageTabList']//tabpage[@accessiblename='Thẻ mới']
+			</item>
+			<basepath>
+				/form[@title='Thẻ mới - Google Chrome']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAJxSURBVDhPrdJbSBRhGAbg/6rAAhcKkjDdNbY8
+tM6saxelzo5b2cEOeF8sIdFFiF6EF1mtSBIJJpuh5aEVO4MUdLiqdT0LWcxNWRC5kae1cmc9BLoz
+O2/fbANieOkHD+/AfO8wM/xs3Sfo5Ew/XbmeGZcjOOPKhS7kckgh0eGbdnJmY23tmRH3ukOFDplg
+WtTlaFTElNOuTQp2bVqwh0MCX26srx79Bi3qy5gS7JgUeEJZwGOigNMm8vUk+Rwm8mxuo/ZvON8p
+85eDOTIt0CKHcfKrrBQRbx3mWuoQuVGMSI0d4Wpek0mklpchcSajzpj9YUlHXYWIH3nZcZG2JgQ+
+R3HxyR+c9y3ipRRFbPwO1GEeyjBHySE6lO0x6oxld56U8tpO4F0RvWJJkfZCWobjaoTIcTmkezQK
+9aObyllQhzJJxphRZ8zWcVwjOOdxYbb+OkrbF8BfCRPZyDAqHi0iNlYLZXAXlAGrpgxaYdQZy7pX
+jKz2Yzot8LgB5Q8WsKdqFraqMGyXCeXZtnnEvtVAHUgjFqj9lpUHZLQeDWa0HgEl3K8q4R9dRual
+WcPveD7/sAR1ZB8Vd8QpfcmSUWcsvaXIk373MHS7SeNIJ569X8KZ1jlc6JzH20/LGP/qhdKbZNiG
+WF+Sz6gzltrgNFmbDskE1mZCKd4/jWv9TXGVr8vw/c12KD1b46I9W2QEElefyrRG0b3z9gGNQJfW
+6NJ0+nV7F/24gMmQCLXHtPZpTPU6Kyy3CmWzV4TFWwg985v3Q+neDMW/SYv6E2S1O2H1Kfx/6HPM
+KTcFH5FS6gXtaVcylTcEFf/GanrtldO3PsPYX4Eyph82ru1CAAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

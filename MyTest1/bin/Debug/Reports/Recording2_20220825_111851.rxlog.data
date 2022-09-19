@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="41.72s"
+		durationms="41721"
+		type="root"
+		rid="3246bdb599aca70"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Admin"
+		rxversion="10.2.3.0"
+		host="ADMIN"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="25/8/2022 11:18:54 AM"
+		timestampiso="2022-08-25T04:18:54"
+		endtime="25/8/2022 11:19:36 AM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Recording2">
+		<detail>
+			Recording2
+		</detail>
+		<errormessage>
+			Failed to find item 'MyTest1Repository.LoginMyStoreGoogleChrome.Self'.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.453"
+			timeRelativeToTestModuleStartTime="00:06.453"
+			timeWallClock="11:19:00"
+			time="00:06.453"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.ContactUs' at 42;9.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='automationpractice.com']//div[#'contact-link']/a[@innertext='Contact us']"
+				itempath=".//div[#'contact-link']/a[@innertext='Contact us']"
+				fullname="MyTest1Repository.ApplicationUnderTest.ContactUs"
+				id="5e0e2b714ff343008c029f650f9e7295"
+				timeout="60000"
+				codefile="c:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\Recording2.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.530"
+			timeRelativeToTestModuleStartTime="00:09.530"
+			timeWallClock="11:19:03"
+			time="00:09.530"
+			level="Info"
+			category="Mouse"
+			errimg="images_Recordin_d8d1e89f\Recordin_d8d1e89f_bd39ee4e_trace.jpg"
+			errthumb="images_Recordin_d8d1e89f\Recordin_d8d1e89f_bd39ee4e_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.IdContact' at 249;18.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='automationpractice.com']//select[#'id_contact']"
+				itempath=".//select[#'id_contact']"
+				fullname="MyTest1Repository.ApplicationUnderTest.IdContact"
+				id="76c8e35c381a4dfc84fc4ae88541f2e8"
+				timeout="60000"
+				codefile="c:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\Recording2.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.395"
+			timeRelativeToTestModuleStartTime="00:11.395"
+			timeWallClock="11:19:05"
+			time="00:11.395"
+			level="Info"
+			category="Mouse"
+			errimg="images_Recordin_d8d1e89f\Recordin_d8d1e89f_a91b2f36_trace.jpg"
+			errthumb="images_Recordin_d8d1e89f\Recordin_d8d1e89f_a91b2f36_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'LoginMyStoreGoogleChrome' at 520;733.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'Login - My Store - Google']"
+				itempath="/form[@title>'Login - My Store - Google']"
+				fullname="MyTest1Repository.LoginMyStoreGoogleChrome.Self"
+				id="eeef39e419b94c1584656e5635604f1e"
+				timeout="30000"
+				codefile="c:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\Recording2.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:41.591"
+			timeRelativeToTestModuleStartTime="00:41.591"
+			timeWallClock="11:19:35"
+			time="00:41.591"
+			level="Error"
+			category="Module"
+			errimg="images_Recordin_d8d1e89f\Recordin_d8d1e89f_3e81c022_trace.jpg"
+			errthumb="images_Recordin_d8d1e89f\Recordin_d8d1e89f_3e81c022_trace_thumb.jpg">
+			<message>
+				Failed to find item 'MyTest1Repository.LoginMyStoreGoogleChrome.Self'.<br/>No element found for path '/form[@title&gt;'Login - My Store - Google']' at step 'form[@title&gt;'Login - My Store - Google']' after 143 attempts within 30s.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.&lt;>c__DisplayClass81_0`1.&lt;Find>b__0()&#13;&#10;   at Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)&#13;&#10;   at MyTest1.MyTest1RepositoryFolders.LoginMyStoreGoogleChromeAppFolder.get_Self() in c:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\MyTest1Repository.cs:line 1178&#13;&#10;   at MyTest1.Recording2.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\Recording2.cs:line 91&#13;&#10;   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\Admin\Documents\Ranorex\RanorexStudio Projects\MyTest1\MyTest1\Recording2.cs"
+				codeline="91"
+				type="repoitem"
+				path="/form[@title>'Login - My Store - Google']"
+				itempath="/form[@title>'Login - My Store - Google']"
+				fullname="MyTest1Repository.LoginMyStoreGoogleChrome.Self"
+				id="eeef39e419b94c1584656e5635604f1e"
+				timeout="30000"
+				failedStep="form[@title>'Login - My Store - Google']"
+				bestPathPrefix=""
+				loglvl="Error"
+				itemindex="2">
+			</metainfo>
+		</item>
+	</activity>
+</report>
