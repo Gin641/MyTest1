@@ -10,6 +10,6 @@
       <string>60513a05-eab7-41e7-8c10-e51c735edc2e</string>
     </ArrayOfString>
   </SerializedValue>
-  <ProjectBrowserState value="[Solution MyTest1[Solution Items[]MyTest1[Recording2.rxrec[]RecordingBuy1.rxrec[]RecordingSale.rxrec[]]]]&#xD;&#xA;&#xD;&#xA;Solution MyTest1\MyTest1\CloseBrowser.rxrec" />
+  <ProjectBrowserState value="[Solution MyTest1[Solution Items[]MyTest1[Recording2.rxrec[]RecordingBuy1.rxrec[]RecordingSale.rxrec[]]]]&#xD;&#xA;Solution MyTest1\MyTest1\MyTest1.rxtst&#xD;&#xA;Solution MyTest1\MyTest1\CloseBrowser.rxrec" />
   <StartupProject value="{8AFEF718-CA79-47BC-8788-801699F58B1B}" />
 </Properties>

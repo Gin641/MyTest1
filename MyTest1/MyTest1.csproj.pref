@@ -7,8 +7,8 @@
     <Element value="MyTest1.rxtst" />
     <Element value="RecordingSale.rxrec" />
     <Element value="RecordingBuy.rxrec" />
-    <Element value="RecordingBuy1.rxrec" />
     <Element value="RecordingBuy1.UserCode.cs" />
+    <Element value="RecordingBuy1.rxrec" />
   </Array>
   <Properties name="projectSavedData">
     <Properties name="customTool">
